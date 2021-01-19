@@ -1,0 +1,69 @@
+.ourBenefit{
+    width: 100%;
+    color: #fff;
+    height: 100vh;
+    background: rgb(135,120,150);
+background: linear-gradient(317deg, rgba(135,120,150,1) 0%, rgba(15,5,45,1) 100%);
+}
+.ourBenefit h3{
+    font-size: 30px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.ourBenefit h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+.ourBenefit p{
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.ourBenefit ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 30px 0px;
+}
+.ourBenefit ul li{
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.ourBenefit ul li::before{
+    content: '✔';
+    border: 0px solid #00A76D;
+    background: #00A76D;
+    border-radius: 30px;
+    padding: 0.2em 0.4em;
+    position: absolute;
+    left: 0px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+.ourBenefit .contact .btn{
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding: .6px 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 4px;
+}
+.ourBenefit .contact .mail{
+    background: #27AAE1;
+    margin-right: 10px;
+}
+.ourBenefit .contact .whatsapp{
+    background-color: #28a745;
+}

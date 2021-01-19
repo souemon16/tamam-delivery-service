@@ -1,0 +1,29 @@
+.description{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+.description .row{
+    width: 100%;
+}
+.description-button .btn{
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 4px;
+    width: 180px;
+    font-size: 18px;
+}
+.description-button .whatsapp{
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.description-button .mail-us{
+    background: #27AAE1;
+    color: #fff;
+    cursor: pointer;
+}
