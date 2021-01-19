@@ -1,6 +1,96 @@
 .footer{
     width: 100%;
-    height: 80vh;
+    color: #fff;
+    height: 60vh;
     background: rgb(43,49,82);
-background: linear-gradient(317deg, rgba(43,49,82,1) 0%, rgba(19,26,59,1) 100%);
+    background: linear-gradient(317deg, rgba(43,49,82,1) 0%, rgba(19,26,59,1) 100%);
+}
+.social-section{
+    height: 60px;   
+}
+.social-button{
+    width: 50%;
+    background-color: rgba(212,228,234,1);
+    padding-left: 40px;
+}
+.contact-button{
+    background: tomato;
+    height: 60px;
+    width: 50%;
+}
+.social-button a{
+    width: 80px;
+    height: 60px;
+}
+.fb{
+    background-color: #beced4;
+}
+.twtr{
+    background-color: #c8d6da;
+}
+.insta{
+    background-color: #ccdadfa4;
+}
+.in{
+    background-color: #d5e2e6;
+}
+.social-button a:hover{
+    background: tomato;
+    color: #fff;
+}
+.social-button a:hover .footer-icon{
+    color: #fff;
+}
+.social-button .footer-icon{
+    width: 25px;
+    height: 25px;
+    color: #122333;
+}
+.other-section{
+    margin-top: 10px;
+    height: 260px;
+}
+.about{
+    width: 400px;
+}
+.about .des{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.footer-services h5, .customer-care h5{
+    margin-bottom: 50px;
+}
+.other-section ul{
+    list-style: none;
+}
+.other-section li::before{
+    content: "\2022";
+    color: #ed4c21;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1.2em;
+    margin-left: -1em;
+}
+.footer-link{
+    color: #bac0c3;
+    text-decoration: none;
+    letter-spacing: 1.2px;
+}
+.footer-link:hover{
+    color: #ed4c21;
+}
+.copyright-section{
+    margin-top: 20px;
+    padding: 0 150px;
+    height: 50px;
+}
+.copyright-section p{
+    color: #bac0c3;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+.copyright-section .link a{
+    text-decoration: none;
+    color: #e1eaee;
 }

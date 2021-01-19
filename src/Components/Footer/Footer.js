@@ -8,21 +8,21 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="social-section">
-                <div className="container-fluid d-flex">
+                <div className="d-flex justify-content-between align-items-center">
                     <div className="social-button d-flex">
-                        <div className="fb"> <FontAwesomeIcon icon={faFacebook} /> </div>
-                        <div className="twtr"> <FontAwesomeIcon icon={faTwitter} /> </div>
-                        <div className="insta"> <FontAwesomeIcon icon={faInstagram} /> </div>
-                        <div className="in"> <FontAwesomeIcon icon={faLinkedin} /> </div>
+                        <a href="" className="fb d-flex justify-content-center align-items-center"> <FontAwesomeIcon className="footer-icon" icon={faFacebook} /> </a>
+                        <a href="" className="twtr d-flex justify-content-center align-items-center"> <FontAwesomeIcon className="footer-icon" icon={faTwitter} /> </a>
+                        <a href="" className="insta d-flex justify-content-center align-items-center"> <FontAwesomeIcon className="footer-icon" icon={faInstagram} /> </a>
+                        <a href="" className="in d-flex justify-content-center align-items-center"> <FontAwesomeIcon className="footer-icon" icon={faLinkedin} /> </a>
                     </div>
-                    <div className="contact-button d-flex">
+                    <div className="contact-button d-flex justify-content-around align-items-center">
                         <div>CALL US TO ORDER DELIVERY</div>
-                        <div> <FontAwesomeIcon icon={faPhone} /> 123-456-789</div>
+                        <div> <FontAwesomeIcon className="footer-icon" icon={faPhone} /> 123-456-789</div>
                     </div>
                 </div>
             </div>
 
-            <div className="other-section container">
+            <div className="other-section container d-flex justify-content-around align-items-center">
                 <div className="about">
                     <div className="logo">
                         <img src="" alt="Tamam's Logo" className="img-fluid" />
@@ -34,22 +34,24 @@ const Footer = () => {
                 <div className="footer-services">
                     <h5>Services</h5>
                     <ul>
-                        <li><a href="">Bussiness Services</a></li>
-                        <li><a href="">Shop Delivery</a></li>
-                        <li><a href="">Personal Services</a></li>
+                        <li><a className="footer-link" href="">Bussiness Services</a></li>
+                        <li><a className="footer-link" href="">Shop Delivery</a></li>
+                        <li><a className="footer-link" href="">Personal Services</a></li>
                     </ul>
                 </div>
                 <div className="customer-care">
                 <h5>Customer Care</h5>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">News & Articles</a></li>
+                <ul>
+                <li><a  className="footer-link" href="">Contact Us</a></li>
+                <li><a  className="footer-link" href="">About Us</a></li>
+                <li><a  className="footer-link" href="">News & Articles</a></li>
+                </ul>
                 </div>
             </div>
 
-            <div className="copyright-section">
-            <p><strong className="link">Tamam L.L.C</strong> @ 2021. All Rights Reserved</p>
-            <p><strong className="link">Terms of Use</strong> and <strong className="link">Privacy Policy</strong></p>
+            <div className="copyright-section d-flex justify-content-between align-items-center">
+            <p><strong className="link"><a href="">Tamam L.L.C</a></strong> @ 2021. All Rights Reserved</p>
+            <p><strong className="link"><a href="">Terms of Use</a></strong> and <strong className="link"><a href="">Privacy Policy</a></strong></p>
             </div>
         </footer>
     );

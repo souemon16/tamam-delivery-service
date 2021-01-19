@@ -7,15 +7,15 @@
     box-shadow: 0 10px 15px rgb(0 0 0 / 0.16);
     border-radius: 20px;
     transition: ease-in-out 0.3s;
-    width: calc(25% - 30px);
+    width: 250px;
     height: 200px;
     transition: all ease 0.3s;
 }
-.icon .service-icon{
-    width: 60px;
-    height: 55px;
-    color: #0a0a25;
+.icon img{
     transition: all ease 0.3s;
+    display: block;
+    margin: 0 auto;
+    margin-left: 20px;
 }
 .service-title{
     margin-top: 20px;
@@ -23,16 +23,17 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 28px;
-    color: #0a0a25;
+    color: #333536;
     transition: all ease 0.3s;
 }
 .hide{
     display: none;
     text-align: center;
-    color:#0a0a25;
+    color: #f0f3f5;
     font-size: 22px;
+    padding: 20px;
 }
-.services:hover .service-title, .services:hover .icon .service-icon{
+.services:hover .service-title, .services:hover .icon img{
     display: none;
 }
 .services:hover .hide{
@@ -42,7 +43,8 @@
     transform: translateY(-20px);
     box-shadow: 0 10px 15px rgb(0 0 0 / 0.56);
     /* margin-top: -20px; */
-    background-color: #f64c72;
+    background: rgb(43,49,82);
+    background: linear-gradient(317deg, rgba(43,49,82,1) 0%, rgba(19,26,59,1) 100%);
 }
 .services:hover .service-icon, .services:hover .service-title{
     color: #fff;
