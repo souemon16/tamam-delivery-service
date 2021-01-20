@@ -1,12 +1,16 @@
 import React from 'react';
 import './OurBenefit.css';
 import homeDelivery from '../../../Images/home/delivery-illustator.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const OurBenefit = () => {
+    AOS.init();
+
     return (
         <section className="ourBenefit d-flex justify-content-center align-items-center">
             <div className="row container">
-                <div className="col-md-6">
+                <div data-aos="fade-right" data-aos-delay="150" className="col-md-6">
                     <h3>Your Personal</h3>
                     <h2>Cost-Effective Delivery Driver</h2>
                     <p>Whether you want to deliver birthday gifts, important documents, electronics, valuables or product delivery for your small business in Dubai and other emirates in the UAE, we can help you! </p>
@@ -24,7 +28,7 @@ const OurBenefit = () => {
                         <a href=""><button className="btn whatsapp">Whatsapp Us</button></a>
                     </div>
                 </div>
-                <div className="col-md-6">
+                <div data-aos="fade-left" data-aos-delay="150" className="col-md-6">
                     <img src={homeDelivery} alt="Tamam Home Delivery" className="img-fluid"/>
                 </div>
             </div>

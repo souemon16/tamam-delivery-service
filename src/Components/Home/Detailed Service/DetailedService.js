@@ -3,15 +3,19 @@ import './DetailedService.css';
 import icon1 from '../../../Images/icons/about-01.png';
 import icon2 from '../../../Images/icons/about-02.png';
 import courierMan from '../../../Images/about-men.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const DetailedService = () => {
+    AOS.init();
+
     return (
         <section className="detailed-service">
             <div className="row container-fluid">
-                <div className="col-sm-6">
+                <div data-aos="fade-up" data-aos-delay="200" className="col-sm-6">
                     <img src={courierMan} alt="Tamam Courier Man" className="img-fluid" />
                 </div>
-                <div className="col-sm-6 d-flex flex-column justify-content-center align-items-center">
+                <div data-aos="fade-down" data-aos-delay="200" className="col-sm-6 d-flex flex-column justify-content-center align-items-center">
                     <h1 className="detailed-service-title">25+ Experiences in Delivery Service</h1>
                     <p className="detailed-service-des">There anyone who loves or pursues nor desires to obtain pain of itself, bet it is pain, but because occasionally can packages as their default.</p>
                     <div className='detailed'>

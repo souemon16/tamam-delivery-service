@@ -3,13 +3,17 @@ import './Description.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import deliveryMan from '../../../Images/deliveryman.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Description = () => {
+    AOS.init();
+
     return (
         <section className="description d-flex align-items-center justify-content-center">
             <div className="row container">
                 
-                <div className="col-sm-6 d-flex flex-column justify-content-center">
+                <div data-aos="fade-left" data-aos-offset="300" className="col-sm-6 d-flex flex-column justify-content-center">
                     <h1 className="description-title">We Pick Up & Deliver</h1>
                     <p className="description-detail">Send or receive anything from point
                     A to B by simply booking the Shyft Go pick up and drop off service.
@@ -23,7 +27,7 @@ const Description = () => {
                         <a href="#"><button className="btn whatsapp"><FontAwesomeIcon icon={faWhatsapp} />Whatsapp Us</button></a>
                     </div>
                 </div>
-                <div className="col-sm-6">
+                <div data-aos="fade-right" className="col-sm-6">
                     <img src={deliveryMan} alt="Tamam Delivery Man" className="img-fluid" />
                 </div>
             </div>

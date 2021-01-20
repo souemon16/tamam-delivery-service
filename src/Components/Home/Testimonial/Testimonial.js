@@ -3,23 +3,28 @@ import './Testimonial.css';
 import client1 from '../../../Images/client/client1.jpg';
 import client2 from '../../../Images/client/client2.jpg';
 import client3 from '../../../Images/client/client3.jpg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Testimonial = () => {
+
+    AOS.init();
+
     return (
        <section className="testimonial d-flex justify-content-center align-items-center">
            <div className="container d-flex flex-column justify-content-center align-items-center">
-            <h2 className="testimonial-title">Hear from Customers</h2>
+            <h2 data-aos="zoom-in-up" className="testimonial-title">Hear from Customers</h2>
             <div className="testimonial-body d-flex justify-content-center align-items-center">
-            <div className="speech d-flex flex-column justify-content-center align-items-center">
+            <div data-aos="flip-up" data-aos-delay="250" data-aos-duration="1000" className="speech d-flex flex-column justify-content-center align-items-center">
                 <p>"Shyft helps me with my product deliveries to customers every month. 
                     They are always reliable and my business has been running more smoothly since 
                     I got them as my delivery partner"</p>
                 <div className="person">
-                    <img src={client1} alt="Tamam Testimonial" className="img-fluid"/>
+                    <img src={client1} alt="Tamam Testimonial from Yagasina Puilam" className="img-fluid"/>
                     <h5 className="name">Yagasina Puilam</h5>
                 </div>
             </div>
-            <div className="speech d-flex flex-column justify-content-center align-items-center">
+            <div data-aos="fade-up" data-aos-delay="250" data-aos-duration="1000" className="speech d-flex flex-column justify-content-center align-items-center">
                 <p>"Forgot my charger, used Shyft Go to swiftly get it delivered to my office! Saved on productive time.
                      Got product very safely and fully okay. Not a single problem in it"</p>
                 <div className="person">
@@ -27,7 +32,7 @@ const Testimonial = () => {
                     <h5 className="name">Angelina Russy</h5>
                 </div>
             </div>
-            <div className="speech d-flex flex-column justify-content-center align-items-center">
+            <div data-aos="flip-down" data-aos-delay="250" data-aos-duration="1000" className="speech d-flex flex-column justify-content-center align-items-center">
                 <p>"I have been using the ‘Pickup & Drop’ service routinely to send to my friend books and other
                      goodies often! This has been a life saver during the COVID period"</p>
                 <div className="person">
