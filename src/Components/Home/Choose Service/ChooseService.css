@@ -1,13 +1,31 @@
 .chooseSerivce{
     width: 100%;
-    height: 100vh;
+    height: 190vh;
     background: rgb(97,203,244);
-background: linear-gradient(317deg, rgba(97,203,244,1) 0%, rgba(17,185,233,1) 100%);
+    background: linear-gradient(317deg, rgb(75, 247, 238)  0%, rgb(50, 201, 193) 100%);
 }
 .chooseService-body{
-    width: 1100px;
+    flex-wrap: wrap;
+}
+.chooseService-title-before{
+    font-family: 'Khand', sans-serif;
+    font-size: 18px;
+    line-height: 1.57143;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: left;
+    /* color: rgb(253, 253, 253); */
+    color: tomato;
+    position: relative;
 }
 .chooseService-title{
+    font-size: 62px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    line-height: 57px;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
     margin-bottom: 60px;
     color: #fff;
 }
@@ -15,6 +33,12 @@ background: linear-gradient(317deg, rgba(97,203,244,1) 0%, rgba(17,185,233,1) 10
     width: 20rem;
     padding: 20px 0px;
     border-radius: 10px;
+    margin: 20px 20px;
+    transition: all ease 0.3s;
+}
+.card:hover{
+    box-shadow: 2px 2px 10px #122333;
+    transition: all ease 0.3s;
 }
 .card img{
     width: 150px;
@@ -23,21 +47,77 @@ background: linear-gradient(317deg, rgba(97,203,244,1) 0%, rgba(17,185,233,1) 10
 }
 .card .card-title{
     color: #dc3545;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 12px;
-    font-size: 20px;
+    font-size: 28px;
     line-height: 1.2;
+    font-family: 'Titillium Web', sans-serif;
 }
 .card .card-text{
     font-size: 14px;
     color: #28a745;
     font-weight: 700;
+    font-family: 'Khand', sans-serif;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    line-height: 1.57143;
 }
 .card .card-small{
-    font-size: 12px;
+    font-size: 13px;
     color: #6c757d;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.card-body .btn{
+    font-family: 'Khand', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    width: 140px;
+    line-height: 1.8;
+    white-space: nowrap;
+    text-transform: uppercase;
+    background: #122333;
+    border-color: #122333;
+    color: #ff6347;
+    transition: all ease-in-out 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+.card-body .btn:hover, .card-body .btn:focus{
+    box-shadow: 0 0.5em 0.5em -0.4em tomato;
+  transform: translateY(-0.25em);
+}
+.card-body .btn:hover::before{
+    opacity: 1; 
+    transform: translate(0,0);;
+}
+.card-body .btn::before{
+    content: attr(data-hover);
+      position: absolute;
+      top: 0.6em; left: 0;
+      width: 100%;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-weight: 800;
+      font-size: .8em;
+      opacity: 0;
+      transform: translate(-100%,0);
+      transition: all .3s ease-in-out;
+}
+.card-body .btn div{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    line-height: 1.8;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: all .3s ease-in-out;
+    font-family: 'Khand', sans-serif;
+}
+.card-body .btn:hover div{
+    opacity: 0; 
+    transform: translate(100%,0)
 }

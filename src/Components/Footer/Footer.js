@@ -19,8 +19,8 @@ const Footer = () => {
                         <a data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" href="" className="insta d-flex justify-content-center align-items-center"> <FontAwesomeIcon className="footer-icon" icon={faInstagram} /> </a>
                         <a data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" href="" className="in d-flex justify-content-center align-items-center"> <FontAwesomeIcon className="footer-icon" icon={faLinkedin} /> </a>
                     </div>
-                    <div data-aos="fade-left" data-aos-delay="250" className="contact-button d-flex justify-content-around align-items-center">
-                        <div>CALL US TO ORDER DELIVERY</div>
+                    <div data-aos="flip-left" data-aos-delay="250" className="contact-button d-flex justify-content-around align-items-center">
+                        <div className="call">CALL US TO ORDER DELIVERY</div>
                         <div> <FontAwesomeIcon className="footer-icon" icon={faPhone} /> 123-456-789</div>
                     </div>
                 </div>

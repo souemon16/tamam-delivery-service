@@ -13,12 +13,12 @@ const Testimonial = () => {
     return (
        <section className="testimonial d-flex justify-content-center align-items-center">
            <div className="container d-flex flex-column justify-content-center align-items-center">
+           <p data-aos="zoom-in-up" className="testimonial-title-before">Our Clients</p>
             <h2 data-aos="zoom-in-up" className="testimonial-title">Hear from Customers</h2>
             <div className="testimonial-body d-flex justify-content-center align-items-center">
             <div data-aos="flip-up" data-aos-delay="250" data-aos-duration="1000" className="speech d-flex flex-column justify-content-center align-items-center">
                 <p>"Shyft helps me with my product deliveries to customers every month. 
-                    They are always reliable and my business has been running more smoothly since 
-                    I got them as my delivery partner"</p>
+                    They are always reliable and my business has been running more smoothly since got them as partner"</p>
                 <div className="person">
                     <img src={client1} alt="Tamam Testimonial from Yagasina Puilam" className="img-fluid"/>
                     <h5 className="name">Yagasina Puilam</h5>

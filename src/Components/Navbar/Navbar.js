@@ -9,8 +9,8 @@ const Navbar = () => {
             </div>
 
             <div className="nav-items d-flex justify-content-around">
-                <button className="btn btn-outline nav-btn app">Tamam App</button>
-                <button className="btn nav-btn whatsapp">Whatsapp Us</button>
+                <button className="btn nav-btn">About Us</button>
+                <button className="btn nav-btn">Contact Us</button>
             </div>
         </nav>
     );

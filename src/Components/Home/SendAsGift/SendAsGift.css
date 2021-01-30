@@ -1,20 +1,20 @@
-.ourBenefit{
+.sendAsGift{
     width: 100%;
     color: #fff;
     height: 100vh;
-    background: rgb(135,120,150);
-background: linear-gradient(317deg, rgba(135,120,150,1) 0%, rgba(15,5,45,1) 100%);
+    background: rgb(70,93,115);
+    background: linear-gradient(317deg, rgba(70,93,115,1) 0%, rgba(18,35,51,1) 100%);
 }
-.ourBenefit-title-before{
+.sendAsGift-title-before{
     font-family: 'Khand', sans-serif;
     font-size: 18px;
     line-height: 1.57143;
     font-weight: 500;
-    color: #fff;
+    color: tomato;
     letter-spacing: 1.5px;
     text-transform: uppercase;
 }
-.ourBenefit h2{
+.sendAsGift h2{
     font-size: 41px;
     font-weight: 700;
     line-height: 1.2;
@@ -24,7 +24,7 @@ background: linear-gradient(317deg, rgba(135,120,150,1) 0%, rgba(15,5,45,1) 100%
     color: #fff;
     font-family: 'Titillium Web', sans-serif;
 }
-.ourBenefit-title-after{
+.sendAsGift-title-after{
     margin-top: 0;
     margin-bottom: 16px;
     font-size: 17px;
@@ -32,12 +32,12 @@ background: linear-gradient(317deg, rgba(135,120,150,1) 0%, rgba(15,5,45,1) 100%
     line-height: 1.5;
     font-family: 'Roboto', sans-serif;
 }
-.ourBenefit ul{
+.sendAsGift ul{
     list-style: none;
     padding-left: 0;
     margin: 30px 0px;
 }
-.ourBenefit ul li{
+.sendAsGift ul li{
     position: relative;
     padding-left: 35px;
     margin-bottom: 15px;
@@ -47,19 +47,19 @@ background: linear-gradient(317deg, rgba(135,120,150,1) 0%, rgba(15,5,45,1) 100%
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.4px;
 }
-.ourBenefit ul li::before{
-    content: '✔';
+.sendAsGift ul li::before{
+    content: '❤️';
     border: 0px solid #00A76D;
-    background: #00A76D;
+    /* background: #00A76D; */
     border-radius: 30px;
-    padding: 0.2em 0.4em;
+    /* padding: 0.1em 0.12em; */
     position: absolute;
     left: 0px;
     height: 25px;
     width: 25px;
     text-align: center;
 }
-.ourBenefit .contact .btn{
+.sendAsGift .contact .btn{
     width: 140px;
     height: 40px;
     color: #fff;
@@ -75,21 +75,21 @@ background: linear-gradient(317deg, rgba(135,120,150,1) 0%, rgba(15,5,45,1) 100%
     text-transform: uppercase;
     transition: all ease-in-out 0.3s;
 }
-.ourBenefit .contact .btn:hover{
+.sendAsGift .contact .btn:hover{
     color: #fff;
 }
-.ourBenefit .contact .mail{
+.sendAsGift .contact .mail{
     border: 1px solid tomato;
     margin-right: 10px;
     color: tomato;
 }
-.ourBenefit .contact .mail:hover{
+.sendAsGift .contact .mail:hover{
     box-shadow: inset 10em 0 0 0 tomato;
 }
-.ourBenefit .contact .whatsapp{
+.sendAsGift .contact .whatsapp{
     border-color:  #28a745;
     color: #28a745;
 }
-.ourBenefit .contact .whatsapp:hover{
+.sendAsGift .contact .whatsapp:hover{
     box-shadow: inset 10em 0 0 0 #28a745;
 }

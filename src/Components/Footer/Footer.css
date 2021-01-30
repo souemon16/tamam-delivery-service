@@ -2,8 +2,8 @@
     width: 100%;
     color: #fff;
     height: 60vh;
-    background: rgb(43,49,82);
-    background: linear-gradient(317deg, rgba(43,49,82,1) 0%, rgba(19,26,59,1) 100%);
+    background: rgb(48,75,99);
+    background: linear-gradient(317deg, rgba(48,75,99,1) 0%, rgba(18,35,51,1) 100%);
 }
 .social-section{
     height: 60px;   
@@ -17,6 +17,16 @@
     background: tomato;
     height: 60px;
     width: 50%;
+    font-family: 'Poppins', sans-serif;
+    transition: all ease-in-out 0.5s;
+}
+.contact-button:hover .footer-icon{
+    transform: rotate(360deg);
+    color: #122333;
+    transition: all ease-in-out 0.5s;
+}
+.contact-button:hover .call{
+    color: #122333;
 }
 .social-button a{
     width: 80px;
@@ -55,10 +65,19 @@
 }
 .about .des{
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
 }
 .footer-services h5, .customer-care h5{
     margin-bottom: 50px;
+    font-family: 'Khand', sans-serif;
+    line-height: 1.57143;
+    font-weight: 500;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    font-size: 17px;
 }
 .other-section ul{
     list-style: none;
@@ -75,6 +94,9 @@
     color: #bac0c3;
     text-decoration: none;
     letter-spacing: 1.2px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
 }
 .footer-link:hover{
     color: #ed4c21;
@@ -89,8 +111,14 @@
     text-align: center;
     letter-spacing: 0.5px;
     font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
 }
 .copyright-section .link a{
     text-decoration: none;
-    color: #e1eaee;
+    color: #ffffff;
+}
+.copyright-section .link a:hover{
+    color: #ed4c21;
 }
