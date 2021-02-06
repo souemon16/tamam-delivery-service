@@ -57,3 +57,35 @@
     margin-top: -200px;
     width: 100%;
 }
+
+/* Responsive Design  */
+@media(max-height:510px){
+    .carousel-item{
+        height: 120vh;
+    }
+    .carousel-inner{
+        height: 120vh;
+    }
+}
+@media(max-height:405px){
+    .carousel-item{
+        height: 140vh;
+    }
+    .carousel-inner{
+        height: 140vh;
+    }
+    .bottom-img img{
+        margin-top: -160px;
+    }
+}
+@media(max-height:340px){
+    .carousel-item{
+        height: 180vh;
+    }
+    .carousel-inner{
+        height: 180vh;
+    }
+    .bottom-img img{
+        margin-top: -120px;
+    }
+}

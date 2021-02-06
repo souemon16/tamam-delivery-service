@@ -2,7 +2,7 @@
     width: 100%;
     color: #fff;
     height: 100vh;
-    background: rgb(70,93,115);
+    background: rgb(224, 224, 224);
     background: linear-gradient(317deg, rgba(70,93,115,1) 0%, rgba(18,35,51,1) 100%);
 }
 .sendAsGift-title-before{
@@ -92,4 +92,16 @@
 }
 .sendAsGift .contact .whatsapp:hover{
     box-shadow: inset 10em 0 0 0 #28a745;
+}
+
+/* RESPONSIVE DESIGN  */
+@media (max-height: 520px){
+    .sendAsGift{
+        height: 140vh;
+    }
+}
+@media (max-height: 410px){
+    .sendAsGift{
+        height: 180vh;
+    }
 }

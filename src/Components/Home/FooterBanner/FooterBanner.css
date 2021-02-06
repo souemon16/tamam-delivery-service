@@ -41,3 +41,20 @@
     line-height: 1.5;
     font-family: 'Roboto', sans-serif;
 }
+
+/* RESPONSIVE DESIGN  */
+@media (max-height: 520px){
+    .footerBanner{
+        height: 80vh;
+    }
+}
+@media (max-height: 410px){
+    .footerBanner{
+        height: 90vh;
+    }
+}
+@media (max-height: 340px){
+    .footerBanner{
+        height: 100vh;
+    }
+}

@@ -20,7 +20,7 @@ const Footer = () => {
                         <a data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" href="" className="in d-flex justify-content-center align-items-center"> <FontAwesomeIcon className="footer-icon" icon={faLinkedin} /> </a>
                     </div>
                     <div data-aos="flip-left" data-aos-delay="250" className="contact-button d-flex justify-content-around align-items-center">
-                        <div className="call">CALL US TO ORDER DELIVERY</div>
+                        <div className="call">WHATSAPP US TO ORDER DELIVERY</div>
                         <div> <FontAwesomeIcon className="footer-icon" icon={faPhone} /> 123-456-789</div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const Footer = () => {
                         <img src="" alt="Tamam's Logo" className="img-fluid" />
                     </div>
                     <div className="des">
-                        <p>We are courier company that provides fast and reliable package transport.</p>
+                        <p>We are delivery company that provides fast and reliable package transport.</p>
                     </div>
                 </div>
                 <div data-aos="zoom-in" data-aos-delay="250" className="footer-services">
@@ -46,9 +46,9 @@ const Footer = () => {
                 <div data-aos="fade-up-left" data-aos-delay="250" className="customer-care">
                 <h5>Customer Care</h5>
                 <ul>
-                <li><a  className="footer-link" href="">Contact Us</a></li>
                 <li><a  className="footer-link" href="">About Us</a></li>
-                <li><a  className="footer-link" href="">News & Articles</a></li>
+                <li><a  className="footer-link" href="">Our Aim</a></li>
+                <li><a  className="footer-link" href="">Contact Us</a></li>
                 </ul>
                 </div>
             </div>

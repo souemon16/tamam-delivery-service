@@ -17,14 +17,14 @@ const DetailedService = () => {
                 </div>
                 <div data-aos="fade-down" data-aos-delay="200" className="col-sm-6 d-flex flex-column justify-content-center align-items-start">
                     <p className="detailedService-title-before">Our Experiences</p>
-                    <h1 className="detailed-service-title">Well Experienced <br/> Driver Expert</h1>
+                    <h1 className="detailed-service-title">Well Experienced <br/> Driver </h1>
                     <p className="detailed-service-des">We have well experienced driver expert about Dubai as well as UAE.</p>
                     <div className='detailed'>
                         <div className="service-1 d-flex justify-content-start">
                             <div className="icon"><img src={icon1} alt="" className="img-fluid" /></div>
                             <div className="service-detail">
                                 <h3>Fast Delivery</h3>
-                                <p>We believe in time so save time with our fast delivery services in Dubai & UAE.</p>
+                                <p>We believe in time so save time with our fast delivery services, we collect from Dubai and deliver all around the UAE</p>
                             </div>
                         </div>
                         <div className="service-2 d-flex justify-content-start">

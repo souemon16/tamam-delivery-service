@@ -68,3 +68,19 @@
 .e-commerce-button .mail-us:hover{
     box-shadow: inset 13.1em 0 0 0 #fff;
 }
+/* RESPONSIVE DESIGN  */
+@media (max-height: 520px){
+    .e-commerce{
+        height: 140vh;
+    }
+}
+@media (max-height: 410px){
+    .e-commerce{
+        height: 180vh;
+    }
+}
+@media (max-height: 340px){
+    .e-commerce{
+        height: 250vh;
+    }
+}

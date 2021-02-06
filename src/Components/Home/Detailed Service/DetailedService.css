@@ -68,3 +68,15 @@
 .service-detail p{
     width: 500px;
 }
+
+/* RESPONSIVE DESIGN  */
+@media(max-height:510px){
+    .detailed-service{
+        height: 150vh;
+    }
+}
+@media(max-height:400px){
+    .detailed-service{
+        height: 200vh;
+    }
+}

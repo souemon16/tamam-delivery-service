@@ -6,8 +6,6 @@ import service3 from '../../../Images/header service/service3.png';
 import service4 from '../../../Images/header service/service4.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTruck, faTruckLoading, faLuggageCart, faBusinessTime } from '@fortawesome/free-solid-svg-icons';
 
 const Services = () => {
 
@@ -19,7 +17,7 @@ const Services = () => {
                 <div className="icon"> <img className="service-icon" src={service1} alt="Tamam's A-Z Delivery" className="img-fluid"/></div>
                 <div>
                 <h5 className="service-title">Tamam <br/> A-Z Delivery</h5>
-                <p className="hide">Deliver Anything from <br/> A-Z point in UAE.</p>
+                <p className="hide">Pick-up anything from &<br/> deliver A-Z point in UAE.</p>
                 </div>
             </div>
             <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="5000" className="services d-flex flex-column justify-content-center align-items-center">

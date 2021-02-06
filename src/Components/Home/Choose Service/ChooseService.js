@@ -28,6 +28,7 @@ const ChooseService = () => {
                             <h5 class="card-title">Same day</h5>
                             <p class="card-text"><FontAwesomeIcon icon={faCheck} /> Cost Effective</p>
                             <p className="card-small">Pickup and Delivery <br/> Within the same day</p>
+                            <p className="card-small-hover">Receive your expected <br/> Package 24/7 guaranteed! <br/> Whatsapp us for more info.</p>
                             <a data-hover="order now!" href="#" class="btn"><div>Want It?</div></a>
                         </div>
                     </div>
@@ -38,6 +39,7 @@ const ChooseService = () => {
                             <h5 class="card-title">Next day</h5>
                             <p class="card-text"><FontAwesomeIcon icon={faCheck} /> Flat Free</p>
                             <p className="card-small">Pickup on a given date <br/> Deliver on the Next Day</p>
+                            <p className="card-small-hover">You can make a pre-booking <br/> for your next day delivery <br/> as a priority customer <br/> N.B. Storage not available</p>
                             <a data-hover="order now!" href="#" class="btn"><div>Want It?</div></a>
                         </div>
                     </div>
@@ -48,6 +50,7 @@ const ChooseService = () => {
                             <h5 class="card-title">Urgent Deliveries</h5>
                             <p class="card-text"><FontAwesomeIcon icon={faCheck} />  Fast and Effective</p>
                             <p className="card-small"> Pickup and Delivery <br/> Within 4 hours</p>
+                            <p className="card-small-hover">Want your product delivery <br/> urgent and do not want <br/> to wait too long. <br/> We usually take just a few <br/> hours after cut off time <br/> See Cost Details</p>
                             <a data-hover="order now!" href="#" class="btn"><div>Want It?</div></a>
                         </div>
                     </div>
@@ -58,7 +61,8 @@ const ChooseService = () => {
                         <div class="card-body text-center">
                             <h5 class="card-title">Cash On Delivery</h5>
                             <p class="card-text"><FontAwesomeIcon icon={faCheck} /> We Believe You</p>
-                            <p className="card-small">Pickup and Delivery <br/> Within Your Schedule</p>
+                            <p className="card-small">Cash Payment Only <br/> Cash on Delivery</p>
+                            <p className="card-small-hover">Please pay by cash only <br/> (online transaction system is <br/> under process)</p>
                             <a data-hover="order now!" href="#" class="btn"><div>Want It?</div></a>
                         </div>
                     </div>
@@ -69,6 +73,7 @@ const ChooseService = () => {
                             <h5 class="card-title">Cost Effective</h5>
                             <p class="card-text"><FontAwesomeIcon icon={faCheck} /> Save the best with us</p>
                             <p className="card-small">Pickup and Delivery <br/> Within Your Schedule</p>
+                            <p className="card-small-hover">We promised to provide <br/> you amazing experience by <br/> our service, with reasonable <br/> price in town</p>
                             <a data-hover="order now!" href="#" class="btn"><div>Want It?</div></a>
                         </div>
                     </div>
@@ -79,6 +84,7 @@ const ChooseService = () => {
                             <h5 class="card-title">Safe & Secure</h5>
                             <p class="card-text"><FontAwesomeIcon icon={faCheck} />  Reliable Service</p>
                             <p className="card-small"> Pickup and Delivery <br/> Within Your Schedule</p>
+                            <p className="card-small-hover">"On time always" We offer <br/> a time saved and protected <br/> delivering, caring on <br/> damaging complaints</p>
                             <a data-hover="order now!" href="#" class="btn"><div>Want It?</div></a>
                         </div>
                     </div>

@@ -122,3 +122,18 @@
 .copyright-section .link a:hover{
     color: #ed4c21;
 }
+@media (max-height: 520px){
+    .footer{
+        height: 80vh;
+    }
+}
+@media (max-height: 410px){
+    .footer{
+        height: 100vh;
+    }
+}
+@media (max-height: 340px){
+    .footer{
+        height: 120vh;
+    }
+}

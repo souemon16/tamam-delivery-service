@@ -30,10 +30,10 @@
     color: #fff;
 }
 .card{
-    width: 20rem;
+    width: 18rem;
     padding: 20px 0px;
     border-radius: 10px;
-    margin: 20px 20px;
+    margin: 20px 40px;
     transition: all ease 0.3s;
 }
 .card:hover{
@@ -41,8 +41,8 @@
     transition: all ease 0.3s;
 }
 .card img{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin: 0 auto;
 }
 .card .card-title{
@@ -70,11 +70,26 @@
     letter-spacing: 1px;
     font-family: 'Poppins', sans-serif;
 }
+.card .card-small-hover{
+    font-size: 13px;
+    color: #6c757d;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    display: none;
+}
+.card:hover .card-small{
+    display: none;
+}
+.card:hover .card-small-hover{
+    display: block;
+}
 .card-body .btn{
     font-family: 'Khand', sans-serif;
     letter-spacing: 2px;
     font-weight: 500;
-    width: 140px;
+    width: 120px;
     line-height: 1.8;
     white-space: nowrap;
     text-transform: uppercase;
@@ -120,4 +135,21 @@
 .card-body .btn:hover div{
     opacity: 0; 
     transform: translate(100%,0)
+}
+
+/* RESPONSIVE DESIGN  */
+@media (max-height: 510px){
+    .chooseSerivce{
+        height: 240vh;
+    }
+}
+@media (max-height: 405px){
+    .chooseSerivce{
+        height: 350vh;
+    }
+}
+@media (max-height: 340px){
+    .chooseSerivce{
+        height: 420vh;
+    }
 }

@@ -63,3 +63,15 @@
     color: #fff;
     margin-top: 30px;
 }
+
+/* RESPONSIVE DESIGN  */
+@media (max-height: 520px){
+    .joinUs{
+        height: 120vh;
+    }
+}
+@media (max-height: 410px){
+    .joinUs{
+        height: 140vh;
+    }
+}

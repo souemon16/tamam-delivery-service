@@ -53,3 +53,21 @@
 .services:hover .service-icon, .services:hover .service-title{
     color: #fff;
 }
+ /* Responsive Design  */
+ @media (max-height: 510px){
+    .service-section{
+        margin-top: 130px;
+        height: 40vh;
+    }
+ }
+ @media (max-height: 405px){
+    .service-section{
+        margin-top: 220px;
+        height: 40vh;
+    }
+ }
+ @media (max-height: 340px){
+    .service-section{
+        margin-top: 320px;
+    }
+ }

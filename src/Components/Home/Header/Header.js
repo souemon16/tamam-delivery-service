@@ -31,8 +31,8 @@ const Header = () => {
                     <div className="row">
                         <div className="col-12 d-flex flex-column align-items-start justify-content-center">
                           <h4 className="display-5 bolder carousel-title carousel-title-2">Tamam Delivery Service</h4>
-                            <p className="display-5 carousel-detail">Take orders from other company</p>
-                            <p className="carousel-detail-2">Take anything as a order from other company & <br/> Deliver it within 4 hours 7 days a week</p>
+                            <p className="display-5 carousel-detail">Your Trusted Delivery Partner</p>
+                            <p className="carousel-detail-2">Tamam your best partner to develop your business, <br/> let us help you to grow your business <br/> Deliver it 7 days a week</p>
                         </div> 
                     </div>
                     </div>
