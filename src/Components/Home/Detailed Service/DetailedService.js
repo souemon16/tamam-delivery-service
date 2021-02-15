@@ -12,10 +12,10 @@ const DetailedService = () => {
     return (
         <section className="detailed-service">
             <div className="row container-fluid">
-                <div data-aos="fade-up" data-aos-delay="200" className="col-sm-6">
-                    <img src={courierMan} alt="Tamam Courier Man" className="img-fluid" />
+                <div data-aos="fade-up" data-aos-delay="200" className="col-lg-6">
+                    <img src={courierMan} alt="Tamam Courier Man" className="img-fluid detailedService-img" />
                 </div>
-                <div data-aos="fade-down" data-aos-delay="200" className="col-sm-6 d-flex flex-column justify-content-center align-items-start">
+                <div data-aos="fade-down" data-aos-delay="200" className="col-lg-6 detailedService-body d-flex flex-column justify-content-center align-items-start">
                     <p className="detailedService-title-before">Our Experiences</p>
                     <h1 className="detailed-service-title">Well Experienced <br/> Driver </h1>
                     <p className="detailed-service-des">We have well experienced driver expert about Dubai as well as UAE.</p>

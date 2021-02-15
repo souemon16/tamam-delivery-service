@@ -1,13 +1,14 @@
 import React from 'react';
 import './SendAsGift.css';
 import girlWithFlower from '../../../Images/girls with flower.png';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const SendAsGift = () => {
+
     AOS.init();
 
     return (

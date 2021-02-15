@@ -10,6 +10,7 @@
     width: 250px;
     height: 200px;
     transition: all ease 0.3s;
+   
 }
 .icon img{
     transition: all ease 0.3s;
@@ -54,6 +55,7 @@
     color: #fff;
 }
  /* Responsive Design  */
+ /* -----------Height----------- */
  @media (max-height: 510px){
     .service-section{
         margin-top: 130px;
@@ -71,3 +73,25 @@
         margin-top: 320px;
     }
  }
+  /* ----------- Width ----------- */
+  @media (max-width: 768px){
+    .service-section{
+        flex-wrap: wrap;
+        height: 80vh;
+    }
+    .services{
+        width: 200px;
+        height: 180px;
+    }
+  }
+  @media (max-width: 422px){
+    .service-section{
+        flex-wrap: wrap;
+        height: 160vh;
+    }
+    .services{
+        height: 160px;
+        margin: 5px 0;
+        box-shadow: 0 10px 15px rgb(0 0 0 / 0.16);
+    }
+  }

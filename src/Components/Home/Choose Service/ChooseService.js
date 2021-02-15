@@ -33,7 +33,7 @@ const ChooseService = () => {
                         </div>
                     </div>
 
-                    <div data-aos="fade-right" data-aos-delay="200" class="card">
+                    <div data-aos="zoom-in" data-aos-delay="200" data-aos-duration="4500" class="card">
                         <img src={service1} class="card-img-top" alt="Tamam Next Day Delivery Service" />
                         <div class="card-body text-center">
                             <h5 class="card-title">Next day</h5>
@@ -44,7 +44,7 @@ const ChooseService = () => {
                         </div>
                     </div>
 
-                    <div data-aos="fade-left" data-aos-delay="200" class="card">
+                    <div data-aos="zoom-in" data-aos-delay="200" data-aos-duration="4500" class="card">
                         <img src={service3} class="card-img-top" alt="Tamam On Demand Delivery Service" />
                         <div class="card-body text-center">
                             <h5 class="card-title">Urgent Deliveries</h5>
@@ -56,7 +56,7 @@ const ChooseService = () => {
                     </div>
 
 
-                    <div data-aos="fade-right" data-aos-delay="200" class="card">
+                    <div data-aos="zoom-in" data-aos-delay="200" data-aos-duration="4500" class="card">
                         <img src={service4} class="card-img-top" alt="Tamam Next Day Delivery Service" />
                         <div class="card-body text-center">
                             <h5 class="card-title">Cash On Delivery</h5>
@@ -78,7 +78,7 @@ const ChooseService = () => {
                         </div>
                     </div>
 
-                    <div data-aos="fade-left" data-aos-delay="200" class="card">
+                    <div data-aos="zoom-in" data-aos-delay="200" data-aos-duration="4500" class="card">
                         <img src={service6} class="card-img-top" alt="Tamam On Demand Delivery Service" />
                         <div class="card-body text-center">
                             <h5 class="card-title">Safe & Secure</h5>

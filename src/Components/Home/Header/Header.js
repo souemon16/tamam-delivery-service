@@ -1,9 +1,6 @@
 import React from 'react';
 import Navbar from '../../Navbar/Navbar';
 import './Header.css';
-import carousel1 from '../../../Images/car1.png';
-import carousel2 from '../../../Images/car2.png';
-import Services from '../Services/Services';
 import bottomScrew from '../../../Images/header-screw.png';
 
 const Header = () => {
@@ -32,7 +29,7 @@ const Header = () => {
                         <div className="col-12 d-flex flex-column align-items-start justify-content-center">
                           <h4 className="display-5 bolder carousel-title carousel-title-2">Tamam Delivery Service</h4>
                             <p className="display-5 carousel-detail">Your Trusted Delivery Partner</p>
-                            <p className="carousel-detail-2">Tamam your best partner to develop your business, <br/> let us help you to grow your business <br/> Deliver it 7 days a week</p>
+                            <p className="carousel-detail-2">Tamam your best partner to develop your business, <br/> let us help you to grow your business</p>
                         </div> 
                     </div>
                     </div>

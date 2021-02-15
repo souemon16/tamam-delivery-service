@@ -9,7 +9,6 @@
 .footerBanner div{
     margin-left: 60px;
     color: #fff;
-    width: 700px;
 }
 .footerBanner-title-before{
     font-family: 'Khand', sans-serif;
@@ -43,6 +42,7 @@
 }
 
 /* RESPONSIVE DESIGN  */
+/* ------Height-------- */
 @media (max-height: 520px){
     .footerBanner{
         height: 80vh;
@@ -57,4 +57,40 @@
     .footerBanner{
         height: 100vh;
     }
+}
+/* -----------Width--------- */
+@media (max-width: 768px){
+    .footerBanner div{
+        margin-left: 40px;
+    }
+    .footerBanner-title{
+        font-size: 34px;
+        line-height: 1.2;
+        line-height: 50px;
+    }   
+}
+@media (max-width: 630px){
+    .footerBanner div{
+        margin-left: 25px;
+    }
+    .footerBanner-title-before{
+        font-size: 16px;
+    }
+    .footerBanner-title{
+        font-size: 30px;
+        line-height: 1.2;
+        line-height: 40px;
+    }   
+    .footerBanner-para{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+}
+@media (max-width: 562px){
+    .footerBanner-title{
+        font-size: 26px;
+        line-height: 1.2;
+        line-height: 35px;
+    } 
 }

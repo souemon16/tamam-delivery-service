@@ -1,0 +1,73 @@
+.aboutUs{
+    width: 100%;
+    background-color: rgb(252, 247, 247);
+}
+.aboutUs-banner{
+    width: 100%;
+    height: 65vh;
+    background-image: linear-gradient(rgba(135, 171, 216, 0.61), rgba(76, 87, 100, 0.623)), url("../../../src/Images/about-us/about\ us\ background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.aboutUs-banner h1{
+    font-size: 62px;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.aboutUs-body{
+    padding: 100px 0;
+}
+.aboutUs-long h3{
+    margin-bottom: 30px;
+    font-family: 'Khand', sans-serif;
+}
+.aboutUs-short h3{
+    margin-bottom: 10px;
+    font-family: 'Khand', sans-serif;
+}
+.aboutUs-short{
+    margin-left: 60px;
+}
+.aboutUs-long p, .aboutUs-short p{
+    font-size: 17px;
+    line-height: 27px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+.aboutUs-hr{
+    margin: 25px 0;
+    border-bottom: 2px solid black;
+}
+
+/* RESPONSIVENESS  */
+
+@media(max-width: 600px){
+    .aboutUs-banner h1{
+        font-size: 50px;
+    }
+}
+@media(max-width: 575px){
+    .aboutUs-body{
+    padding: 100px 50px;
+    }
+    .aboutUs-long{
+        margin-bottom: 70px;
+    }
+}
+@media(max-width: 425px){
+    .aboutUs-banner h1{
+        font-size: 42px;
+    }
+}
+@media(max-width: 394px){
+    .aboutUs-banner{
+        height: 50vh;
+    }
+    .aboutUs-banner h1{
+        font-size: 32px;
+    }
+}

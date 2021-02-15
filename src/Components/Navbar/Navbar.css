@@ -32,15 +32,66 @@
 /* .app{
     border: 1px solid #122333;
 } */
-.nav-btn:hover, .nav-btn:focus{
+.nav-btn:hover, 
+.nav-btn:focus{
     box-shadow: inset 12em 0 0 0 #122333;
     color: tomato;
 }
-/* .whatsapp{
-    border: 1px solid #28a745;
-    color: #28a745;
+@media (max-width: 930px){
+    .nav-btn{
+        min-width: 160px;
+        padding: 15px 0;
+        font-size: 16px;
+        letter-spacing: 2.7px;
+        line-height: 1.5;
+    }
 }
-.whatsapp:hover, .whatsapp:focus{
-    box-shadow: inset 12em 0 0 0 #28a745;
-    color: #fff; */
-
+@media (max-width: 768px){
+    .nav{
+        padding: 0 10px;
+    }
+    .nav-items{
+        width: 350px;
+    }
+}
+@media (max-width: 622px){
+    .nav-btn{
+        min-width: 140px;
+        padding: 10px 0;
+        font-size: 16px;
+        letter-spacing: 2.7px;
+        line-height: 1.5;
+    }
+    .nav-items{
+        width: 300px;
+    }
+}
+@media (max-width: 524px){
+    .nav-btn{
+        min-width: 110px;
+        padding: 10px 0;
+        font-size: 13px;
+        letter-spacing: 2px;
+        line-height: 1.5;
+    }
+    .nav-items{
+        width: 250px;
+    }
+}
+@media (max-width: 462px){
+    .nav-btn{
+        min-width: 90px;
+        padding: 8px 0;
+        font-size: 12px;
+        letter-spacing: 2px;
+        line-height: 1.5;
+    }
+    .nav-items{
+        width: 190px;
+    }
+}
+@media (max-width: 384px){
+    .nav{
+        flex-direction: column;
+    }
+}

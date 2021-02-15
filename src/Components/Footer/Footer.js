@@ -5,8 +5,10 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
+
     AOS.init();
 
     return (
@@ -26,36 +28,40 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div data-aos="fade-up-right" data-aos-delay="250" className="other-section container d-flex justify-content-around align-items-center">
-                <div className="about">
-                    <div className="logo">
-                        <img src="" alt="Tamam's Logo" className="img-fluid" />
+            <div data-aos="fade-up-right" data-aos-delay="250" className="other-section container">
+                <div className="row">
+                    <div className="col-lg-5 col-md-10 col-sm-12 about">
+                        <div className="logo">
+                            <img src="" alt="Tamam's Logo" className="img-fluid" />
+                        </div>
+                        <div className="des">
+                            <p>We are delivery company that provides fast and reliable package transport.</p>
+                        </div>
                     </div>
-                    <div className="des">
-                        <p>We are delivery company that provides fast and reliable package transport.</p>
+                    <hr className="footer-hr" />
+                    <div data-aos="zoom-in" data-aos-delay="250" className="col-lg-4 col-md-8 col-sm-12 footer-services">
+                        <h5>Services</h5>
+                        <ul>
+                            <Link className="link" to=""><li><a className="footer-link" href="">Bussiness Services</a></li></Link>
+                            <Link className="link" to=""><li><a className="footer-link" href="">Shop Delivery</a></li></Link>
+                            <Link className="link" to=""><li><a className="footer-link" href="">Personal Services</a></li></Link>
+                        </ul>
                     </div>
-                </div>
-                <div data-aos="zoom-in" data-aos-delay="250" className="footer-services">
-                    <h5>Services</h5>
-                    <ul>
-                        <li><a className="footer-link" href="">Bussiness Services</a></li>
-                        <li><a className="footer-link" href="">Shop Delivery</a></li>
-                        <li><a className="footer-link" href="">Personal Services</a></li>
-                    </ul>
-                </div>
-                <div data-aos="fade-up-left" data-aos-delay="250" className="customer-care">
-                <h5>Customer Care</h5>
-                <ul>
-                <li><a  className="footer-link" href="">About Us</a></li>
-                <li><a  className="footer-link" href="">Our Aim</a></li>
-                <li><a  className="footer-link" href="">Contact Us</a></li>
-                </ul>
+                    <hr className="footer-hr" />
+                    <div data-aos="fade-up-left" data-aos-delay="250" className="col-lg-3 col-md-8 col-sm-12 customer-care">
+                        <h5>Customer Care</h5>
+                        <ul>
+                            <Link className="link" to="/about-us"><li><a className="footer-link" href="">About Us</a></li></Link>
+                            <Link className="link" to="/our-aim"><li><a className="footer-link" href="">Our Aim</a></li></Link>
+                            <Link className="link" to="/contact-us"><li><a className="footer-link" href="">Contact Us</a></li></Link>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
             <div className="copyright-section d-flex justify-content-between align-items-center">
-            <p><strong className="link"><a href="">Tamam L.L.C</a></strong> @ 2021. All Rights Reserved</p>
-            <p><strong className="link"><a href="">Terms of Use</a></strong> and <strong className="link"><a href="">Privacy Policy</a></strong></p>
+                <p><strong className="link"><a href="">Tamam L.L.C</a></strong> @ 2021. All Rights Reserved</p>
+                <p><strong className="link"><a href="">Terms of Use</a></strong> and <strong className="link"><a href="">Privacy Policy</a></strong></p>
             </div>
         </footer>
     );

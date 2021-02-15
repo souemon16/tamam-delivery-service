@@ -8,16 +8,18 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const ECommerce = () => {
+
     AOS.init();
+
     return (
         <section className="e-commerce d-flex align-items-center justify-content-center">
         <div className="row container">
             
-        <div data-aos="fade-right" className="col-sm-6">
-                <img src={unusedThings} alt="Tamam Delivery Man" className="img-fluid" />
+        <div data-aos="fade-right" className="col-md-6">
+                <img  src={unusedThings} alt="Tamam Delivery Man" className="img-fluid" />
             </div>
 
-            <div data-aos="fade-left" data-aos-offset="300" className="col-sm-6 d-flex flex-column justify-content-center">
+            <div data-aos="fade-left" data-aos-offset="300" className="col-md-6 d-flex flex-column justify-content-center">
                 <p className="title-before">Spread your business with us</p>
                 <h1 className="e-commerce-title">Are you have a small business? <br/> Are you SME? <br/> E-Commerce seller? Social SELLER?</h1>
                 <p className="e-commerce-detail">Let us help you increase your Business efficiency by providing best service with our well experiences driver.</p>

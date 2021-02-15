@@ -1,10 +1,14 @@
 import React from 'react';
 import './FooterBanner.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const FooterBanner = () => {
+
+    AOS.init();
     return (
         <section className="footerBanner d-flex flex-column justify-content-center align-items-start">
-           <div>
+           <div data-aos="zoom-in-down" className="col-lg-6 col-md-8">
            <p className="footerBanner-title-before">What We Are</p>
            
             <h2 className="footerBanner-title">We’re Tamam Delivery, your preferred delivery provider in Dubai, United Arab Emirates</h2>

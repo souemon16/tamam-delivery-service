@@ -60,8 +60,8 @@
     text-align: center;
 }
 .sendAsGift .contact .btn{
-    width: 140px;
-    height: 40px;
+    width: 180px;
+    height: 50px;
     color: #fff;
     font-weight: 500;
     text-align: center;
@@ -74,6 +74,7 @@
     white-space: nowrap;
     text-transform: uppercase;
     transition: all ease-in-out 0.3s;
+    margin-bottom: 10px;
 }
 .sendAsGift .contact .btn:hover{
     color: #fff;
@@ -84,17 +85,18 @@
     color: tomato;
 }
 .sendAsGift .contact .mail:hover{
-    box-shadow: inset 10em 0 0 0 tomato;
+    box-shadow: inset 12em 0 0 0 tomato;
 }
 .sendAsGift .contact .whatsapp{
     border-color:  #28a745;
     color: #28a745;
 }
 .sendAsGift .contact .whatsapp:hover{
-    box-shadow: inset 10em 0 0 0 #28a745;
+    box-shadow: inset 12em 0 0 0 #28a745;
 }
 
 /* RESPONSIVE DESIGN  */
+/* ------height-------- */
 @media (max-height: 520px){
     .sendAsGift{
         height: 140vh;
@@ -103,5 +105,144 @@
 @media (max-height: 410px){
     .sendAsGift{
         height: 180vh;
+    }
+}
+/* -------Width-------- */
+@media (max-width: 1024px) and (max-height: 1366px){
+    .sendAsGift{
+        height: 70vh;
+    }
+}
+@media (max-width: 994px){
+    .sendAsGift .contact .btn{
+        width: 140px;
+        height: 50px;
+    }
+}
+@media (max-width: 994px){
+    .sendAsGift{
+        height: 220vh;
+    }
+    .sendAsGift .row{
+        /* flex-direction: column-reverse; */
+    }
+}
+@media (max-width: 768px) and (max-height: 1024px){
+    .sendAsGift{
+        height: 90vh;
+    }
+}
+@media (max-width: 767px) and (max-height: 1024px){
+    .sendAsGift{
+        height: 130vh;
+    }
+}
+@media (max-width: 670px) and (max-height: 1024px){
+    .sendAsGift{
+        height: 130vh;
+    }
+}
+@media (max-width: 670px) and (max-height: 768px){
+    .sendAsGift{
+        height: 170vh;
+    }
+}
+@media (max-width: 620px) and (max-height: 1024px){
+    .sendAsGift{
+        height: 140vh;
+    }
+}
+@media (max-width: 620px) and (max-height: 768px){
+    .sendAsGift{
+        height: 170vh;
+    }
+}
+@media (max-width: 620px) and (max-height: 690px){
+    .sendAsGift{
+        height: 190vh;
+    }
+}
+@media (max-width: 540px) and (max-height: 768px){
+    .sendAsGift{
+        height: 170vh;
+    }
+}
+@media (max-width: 540px) and (max-height: 690px){
+    .sendAsGift{
+        height: 200vh;
+    }
+}
+@media (max-width: 486px){
+    .sendAsGift h2{
+        font-size: 35px;
+    }
+    .sendAsGift-title-after{
+        font-size: 16px;
+    }
+    .sendAsGift ul li{
+        font-size: 15px;
+    }
+    .sendAsGift .contact .btn{
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+        letter-spacing: 0.8px;
+    }
+}
+@media (max-width: 425px) and (max-height: 768px){
+    .sendAsGift{
+        height: 170vh;
+    }
+}
+@media (max-width: 425px) and (max-height: 670px){
+    .sendAsGift{
+        height: 190vh;
+    }
+}
+@media (max-width: 420px){
+    .sendAsGift-title-before{
+        font-family: 'Khand', sans-serif;
+        font-size: 16px;
+    }
+    .sendAsGift h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .sendAsGift-title-after{
+        font-size: 15px;
+    }
+    .sendAsGift ul li{
+        font-size: 15px;
+    }
+    .sendAsGift .contact .btn{
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+        letter-spacing: 0.8px;
+    }
+}
+@media (max-width: 375px) and (max-height: 768px){
+    .sendAsGift{
+        height: 150vh;
+    }
+}
+@media (max-width: 375px) and (max-height: 670px){
+    .sendAsGift{
+        height: 170vh;
+    }
+}
+@media (max-width: 320px) and (max-height: 768px){
+    .sendAsGift{
+        height: 150vh;
+    }
+}
+@media (max-width: 320px) and (max-height: 710px){
+    .sendAsGift{
+        height: 170vh;
+    }
+}
+@media (max-width: 320px) and (max-height: 620px){
+    .sendAsGift{
+        height: 190vh;
     }
 }

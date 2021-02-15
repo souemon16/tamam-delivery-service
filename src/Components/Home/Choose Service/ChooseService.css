@@ -138,6 +138,12 @@
 }
 
 /* RESPONSIVE DESIGN  */
+/* -------Height------ */
+@media (max-height: 1024px){
+    .chooseSerivce{
+        height: 180vh;
+    }
+}
 @media (max-height: 510px){
     .chooseSerivce{
         height: 240vh;
@@ -151,5 +157,215 @@
 @media (max-height: 340px){
     .chooseSerivce{
         height: 420vh;
+    }
+}
+/* -------Width------- */
+@media (max-width: 1128px){
+    .card{
+        padding: 20px 0px;
+        margin: 20px 20px;
+    }
+}
+@media (max-width: 1008px){
+    .card{
+        width: 17rem;
+        padding: 20px 0px;
+        margin: 20px 5px;
+    }
+}
+@media (max-width: 1024px) and (max-height: 1366px){
+    .chooseSerivce{
+        height: 100vh;
+    }
+}
+@media (max-width: 870px){
+    .card{
+        width: 16rem;
+        padding: 20px 0px;
+        margin: 20px 5px;
+    }
+}
+@media (max-width: 820px){
+    .chooseSerivce{
+        height: 300vh;
+    }
+    .card{
+        width: 17rem;
+        padding: 20px 0px;
+        margin: 20px 20px;
+    }
+    .chooseService-title{
+        font-size: 52px;
+        line-height: 1.2;
+        line-height: 57px;
+        font-weight: 600;
+    }
+}
+@media (max-width: 768px) and (max-height: 1200px){
+    .chooseSerivce{
+        height: 140vh;
+    }
+}
+@media (max-width: 768px) and (max-height: 1024px){
+    .chooseSerivce{
+        height: 160vh;
+    }
+}
+@media (max-width: 648px){
+    .chooseSerivce{
+        height: 200vh;
+    }
+    .card{
+        width: 16rem;
+        padding: 20px 0px;
+        margin: 20px 10px;
+    }
+}
+@media (max-width: 650px) and (max-height: 768px){
+    .chooseSerivce{
+        height: 220vh;
+    }
+}
+@media (max-width: 650px) and (max-height: 672px){
+    .chooseSerivce{
+        height: 240vh;
+    }
+}
+@media (max-width: 576px){
+    .card{
+        width: 14rem;
+        padding: 20px 0px;
+        margin: 20px 10px;
+    }
+    .chooseService-title{
+        font-size: 48px;
+        line-height: 1.2;
+        line-height: 57px;
+        font-weight: 600;
+    }
+}
+@media (max-width: 550px) and (max-height: 720px){
+    .chooseSerivce{
+        height: 230vh;
+    }
+}
+@media (max-width: 550px) and (max-height: 630px){
+    .chooseSerivce{
+        height: 280vh;
+    }
+}
+@media (max-width: 510px){
+    .chooseSerivce{
+        height: 520vh;
+    }
+    .card{
+        width: 18rem;
+        padding: 20px 0px;
+        margin: 20px 10px;
+    }
+    .chooseService-title{
+        font-size: 38px;
+        line-height: 1.2;
+        line-height: 40px;
+        font-weight: 600;
+    }
+}
+@media (max-width: 425px) and (max-height: 850px){
+    .chooseSerivce{
+        height: 330vh;
+    }
+}
+@media (max-width: 425px) and (max-height: 768px){
+    .chooseSerivce{
+        height: 350vh;
+    }
+}
+@media (max-width: 425px) and (max-height: 720px){
+    .chooseSerivce{
+        height: 380vh;
+    }
+}
+@media (max-width: 425px) and (max-height: 670px){
+    .chooseSerivce{
+        height: 420vh;
+    }
+}
+@media (max-width: 425px) and (max-height: 603px){
+    .chooseSerivce{
+        height: 460vh;
+    }
+}
+@media (max-width: 414px) {
+    .chooseService-title{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 375px) and (max-height: 720px){
+    .chooseSerivce{
+        height: 380vh;
+    }
+}
+@media (max-width: 375px) and (max-height: 670px){
+    .chooseSerivce{
+        height: 400vh;
+    }
+}
+@media (max-width: 375px) and (max-height: 625px){
+    .chooseSerivce{
+        height: 420vh;
+    }
+}
+@media (max-width: 375px) and (max-height: 503px){
+    .chooseSerivce{
+        height: 550vh;
+    }
+}
+@media (max-width: 330px){
+    .chooseService-title{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .chooseService-title-before{
+        font-size: 15px;
+    }
+    .card{
+        width: 14rem;
+        padding: 20px 0px;
+    }
+    .card .card-title{
+        font-size: 22px;
+    }
+    .card .card-text{
+        font-size: 12px;
+    }
+    .card .card-small{
+        font-size: 12px;
+        letter-spacing: 0.8px;
+    }
+    .card-body .btn{
+        letter-spacing: 2px;
+        width: 100px;
+        line-height: 1.8;
+    }
+}
+@media (max-width: 320px) and (max-height: 670px){
+    .chooseSerivce{
+        height: 380vh;
+    }
+}
+@media (max-width: 320px) and (max-height: 640px){
+    .chooseSerivce{
+        height: 400vh;
+    }
+}
+@media (max-width: 320px) and (max-height: 600px){
+    .chooseSerivce{
+        height: 430vh;
+    }
+}
+@media (max-width: 320px) and (max-height: 550px){
+    .chooseSerivce{
+        height: 470vh;
     }
 }

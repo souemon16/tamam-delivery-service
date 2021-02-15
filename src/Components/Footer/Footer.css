@@ -57,11 +57,10 @@
     color: #122333;
 }
 .other-section{
-    margin-top: 10px;
-    height: 260px;
+    margin-top: 80px;
 }
 .about{
-    width: 400px;
+    /* width: 400px; */
 }
 .about .des{
     margin-top: 20px;
@@ -122,6 +121,16 @@
 .copyright-section .link a:hover{
     color: #ed4c21;
 }
+.footer-hr{
+    width: 70%;
+    border: 1px solid white;
+    display: none;
+}
+.link{
+    text-decoration: none;
+}
+/* Responsive  */
+/* -----Height---------- */
 @media (max-height: 520px){
     .footer{
         height: 80vh;
@@ -135,5 +144,300 @@
 @media (max-height: 340px){
     .footer{
         height: 120vh;
+    }
+}
+/* -------Width------------ */
+@media (max-width: 1024px) and (max-height: 1366px){
+    .footer{
+        height: 32vh;
+    }
+}
+@media (max-width: 1024px) and (max-height: 1128px){
+    .footer{
+        height: 40vh;
+    }
+}
+@media (max-width: 994px){
+    .footer{
+        height: 135vh;
+    }
+    .copyright-section{
+        margin-top: 40px;
+        padding: 0 50px;
+        height: 50px;
+    }
+}
+@media (max-width: 768px){
+    .footer{
+        height: 143vh;
+    }
+    .footer-hr{
+        display: block;
+    }
+    .other-section{
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    padding: 0 30px;
+    }
+    .other-section li::before{ 
+        width: 1.2em;
+        margin-left: -2em;
+    }
+    .copyright-section p{
+        display: block;
+    }
+    .footer-services h5, .customer-care h5{
+        margin-bottom: 30px;
+    }
+    .footer-hr{
+        margin: 40px 0;
+    }
+    .contact-button{
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) and (max-height: 1024px){
+    .footer{
+        height: 70vh;
+    }
+}
+@media (max-width: 768px) and (max-height: 997px){
+    .footer{
+        height: 80vh;
+    }
+}
+@media (max-width: 768px) and (max-height: 875px){
+    .footer{
+        height: 90vh;
+    }
+}
+@media (max-width: 670px) and (max-height: 1024px){
+    .footer{
+        height: 72vh;
+    }
+}
+@media (max-width: 670px) and (max-height: 975px){
+    .footer{
+        height: 80vh;
+    }
+}
+@media (max-width: 670px) and (max-height: 975px){
+    .footer{
+        height: 90vh;
+    }
+}
+@media (max-width: 670px) and (max-height: 768px){
+    .footer{
+        height: 96vh;
+    }
+}
+@media (max-width: 670px) and (max-height: 730px){
+    .footer{
+        height: 102vh;
+    }
+}
+@media (max-width: 620px) and (max-height: 1024px){
+    .footer{
+        height: 72vh;
+    }
+}
+@media (max-width: 620px) and (max-height: 985px){
+    .footer{
+        height: 80vh;
+    }
+}
+@media (max-width: 620px) and (max-height: 985px){
+    .footer{
+        height: 90vh;
+    }
+}
+@media (max-width: 620px) and (max-height: 768px){
+    .footer{
+        height: 100vh;
+    }
+}
+@media (max-width: 620px) and (max-height: 709px){
+    .footer{
+        height: 107vh;
+    }
+}
+@media (max-width: 620px) and (max-height: 680px){
+    .footer{
+        height: 112vh;
+    }
+}
+@media (max-width: 560px){
+    .other-section{
+        padding: 0 20px;
+        }
+    .copyright-section{
+        margin-top: 30px;
+        padding: 0 10px;
+        height: 40px;
+    }
+    .about .des{
+        font-size: 15px;
+    }
+    .footer-services h5, .customer-care h5{
+        font-size: 16px;
+    }
+    .footer-link{
+        font-size: 15px;
+    }
+    .contact-button{
+        font-size: 12px;
+    }
+    .copyright-section p{
+        font-size: 10px;
+    }
+}
+@media (max-width: 540px) and (max-height: 768px){
+    .footer{
+        height: 95vh;
+    }
+}
+@media (max-width: 540px) and (max-height: 715px){
+    .footer{
+        height: 100vh;
+    }
+}
+@media (max-width: 540px) and (max-height: 675px){
+    .footer{
+        height: 110vh;
+    }
+}
+@media (max-width: 540px) and (max-height: 610px){
+    .footer{
+        height: 115vh;
+    }
+}
+@media (max-width: 540px) and (max-height: 600px){
+    .footer{
+        height: 120vh;
+    }
+}
+@media (max-width: 540px) and (max-height: 566px){
+    .footer{
+        height: 130vh;
+    }
+}
+@media (max-width: 425px) and (max-height: 768px){
+    .footer{
+        height: 90vh;
+    }
+}@media (max-width: 425px) and (max-height: 755px){
+    .footer{
+        height: 95vh;
+    }
+}
+@media (max-width: 425px) and (max-height: 720px){
+    .footer{
+        height: 100vh;
+    }
+}
+@media (max-width: 425px) and (max-height: 680px){
+    .footer{
+        height: 110vh;
+    }
+}
+@media (max-width: 425px) and (max-height: 622px){
+    .footer{
+        height: 120vh;
+    }
+}
+@media (max-width: 425px) and (max-height: 570px){
+    .footer{
+        height: 130vh;
+    }
+}
+@media (max-width: 425px) and (max-height: 525px){
+    .footer{
+        height: 140vh;
+    }
+}
+@media (max-width: 380px){
+    .footer{
+        height: 150vh;
+    }
+}
+@media (max-width: 375px) and (max-height: 768px){
+    .footer{
+        height: 95vh;
+    }
+}
+@media (max-width: 375px) and (max-height: 720px){
+    .footer{
+        height: 110vh;
+    }
+}
+@media (max-width: 375px) and (max-height: 620px){
+    .footer{
+        height: 120vh;
+    }
+}
+@media (max-width: 375px) and (max-height: 570px){
+    .footer{
+        height: 130vh;
+    }
+}
+@media (max-width: 375px) and (max-height: 520px){
+    .footer{
+        height: 140vh;
+    }
+}
+@media (max-width: 375px) and (max-height: 480px){
+    .footer{
+        height: 150vh;
+    }
+}
+@media (max-width: 320px) and (max-height: 768px){
+    .footer{
+        height: 100vh;
+    }
+}
+@media (max-width: 320px) and (max-height: 700px){
+    .footer{
+        height: 110vh;
+    }
+}
+@media (max-width: 320px) and (max-height: 635px){
+    .footer{
+        height: 120vh;
+    }
+}
+@media (max-width: 320px) and (max-height: 580px){
+    .footer{
+        height: 130vh;
+    }
+}
+@media (max-width: 320px) and (max-height: 540px){
+    .footer{
+        height: 140vh;
+    }
+}
+@media (max-width: 320px) and (max-height: 500px){
+    .footer{
+        height: 150vh;
+    }
+}
+@media (max-width: 320px) and (max-height: 460px){
+    .footer{
+        height: 160vh;
+    }
+}
+@media (max-width: 320px) and (max-height: 430px){
+    .footer{
+        height: 170vh;
+    }
+}
+@media (max-width: 254px){
+    .footer{
+        height: 160vh;
+    }
+}
+@media (max-width: 234px){
+    .footer{
+        height: 180vh;
     }
 }
