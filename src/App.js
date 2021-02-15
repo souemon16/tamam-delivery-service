@@ -10,6 +10,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import NotFound from './Components/NotFound/NotFound';
 
 
 
@@ -35,6 +36,10 @@ function App() {
 
         <Route path="/become-a-partner">
           <Partner />
+        </Route>
+
+        <Route path="/*">
+          <NotFound />
         </Route>
       </Switch>
     </Router>

@@ -48,7 +48,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <hr className="footer-hr" />
-                    <div data-aos="fade-up-left" data-aos-delay="250" className="col-lg-3 col-md-8 col-sm-12 customer-care">
+                    <div className="col-lg-3 col-md-8 col-sm-12 customer-care">
                         <h5>Customer Care</h5>
                         <ul>
                             <Link className="link" to="/about-us"><li><a className="footer-link" href="">About Us</a></li></Link>
