@@ -11,9 +11,9 @@ const AboutUs = () => {
                 <h1>About Us</h1>
             </div>
 
-            <div className="aboutUs-body container">
+            <div className="aboutUs-body">
                 <div className="row">
-                <div className="col-sm-6 aboutUs-long">
+                <div className="col-md-6 aboutUs-long">
                     <h3>Tamam is on a Mission to Transform the Way Customers Things</h3>
                     <p className="text-secondary">The world is growing fast and the people's demands are very high.
                     Now the time has come to introduce with the trusted and reliable Receiving & Delivery
@@ -28,7 +28,7 @@ const AboutUs = () => {
                     We change the way you access the world from the palm of your hand. For all your needs from here to there, big and small, to pick or drop, we'll drop it for you.
                     </p>
                 </div>
-                <div className="col-sm-5 aboutUs-short">
+                <div className="col-md-5 aboutUs-short">
                     <div>
                         <h3>Ouality Service</h3>
                         <p className="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam culpa eaque suscipit, eveniet nobis ab porro quas possimus deleniti numquam.</p>

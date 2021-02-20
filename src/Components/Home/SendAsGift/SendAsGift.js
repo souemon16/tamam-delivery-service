@@ -27,7 +27,7 @@ const SendAsGift = () => {
                         <a href=""><button className="btn whatsapp"> <FontAwesomeIcon icon={faWhatsapp} /> Whatsapp Us</button></a>
                     </div>
                 </div>
-                <div data-aos="fade-left" data-aos-delay="150" className="col-md-6">
+                <div data-aos="fade-down" data-aos-delay="150" className="col-md-6">
                     <img src={girlWithFlower} alt="Tamam Home Delivery" className="img-fluid"/>
                 </div>
             </div>

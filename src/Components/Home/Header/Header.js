@@ -11,8 +11,8 @@ const Header = () => {
                 <div className="carousel-inner">
                 <Navbar />
                     <div className="carousel-item active carousel-1">
-                    <div className="row d-flex justify-content-center align-items-center">
-                        <div className="col-12 d-flex flex-column justify-content-center align-items-start">
+                    <div className="row">
+                        <div className="col-12 d-flex flex-column align-items-start justify-content-center">
                             <h4 className="display-5 bolder carousel-title carousel-title-1">Tamam Delivery Service</h4>
                             <p className="display-5 carousel-detail">Pick Up & Delivery Service</p>
                             <p className="carousel-detail-2"> Pickup anything from Dubai & <br/> Deliver anything in UAE within 4 hours 7 days a week</p>
