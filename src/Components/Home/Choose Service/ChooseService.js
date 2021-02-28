@@ -62,7 +62,7 @@ const ChooseService = () => {
                             <h5 class="card-title">Cash On Delivery</h5>
                             <p class="card-text"><FontAwesomeIcon icon={faCheck} /> We Believe You</p>
                             <p className="card-small">Cash Payment Only <br/> Cash on Delivery</p>
-                            <p className="card-small-hover">Please pay by cash only <br/> (online transaction system is <br/> under process)</p>
+                            <p className="card-small-hover">Cash Payment Only <br/> &#38; <br/> Cash on Delivery</p>
                             <a data-hover="order now!" href="#" class="btn"><div>Want It?</div></a>
                         </div>
                     </div>

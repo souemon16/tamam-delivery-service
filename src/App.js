@@ -11,12 +11,14 @@ import {
   Link
 } from "react-router-dom";
 import NotFound from './Components/NotFound/NotFound';
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 
 
 
 function App() {
   return (
     <Router>
+      <ScrollToTop >
       <Switch>
         <Route exact path="/">
           <Homepage />
@@ -42,6 +44,7 @@ function App() {
           <NotFound />
         </Route>
       </Switch>
+      </ScrollToTop>
     </Router>
   );
 }

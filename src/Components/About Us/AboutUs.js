@@ -31,17 +31,18 @@ const AboutUs = () => {
                 <div className="col-md-5 aboutUs-short">
                     <div>
                         <h3>Ouality Service</h3>
-                        <p className="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam culpa eaque suscipit, eveniet nobis ab porro quas possimus deleniti numquam.</p>
+                        <p className="text-secondary">Our Primary Focus is You When it comes to judging the effectiveness of a company's customer service
+                        efforts, there is really only one measure that matters - customer satisfaction.</p>
                     </div>
                     <hr className="aboutUs-hr" />
                     <div>
                         <h3>Fast Delivery</h3>
-                        <p className="text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit eligendi a dolore maiores. Molestiae aliquam, aspernatur voluptatibus facilis ut quis!</p>
+                        <p className="text-secondary">We provide you a Delivery Solution for your Business. Really fast with dedicated Drivers and Fleet Management.</p>
                     </div>
                     <hr className="aboutUs-hr" />
                     <div>
                         <h3>Affordable Prices</h3>
-                        <p className="text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit eligendi a dolore maiores. Molestiae aliquam, aspernatur voluptatibus facilis ut quis!</p>
+                        <p className="text-secondary">We have created a business model that allows up to offer a wide range of customizable services at reasonable price.</p>
                     </div>
                 </div>
                 </div>

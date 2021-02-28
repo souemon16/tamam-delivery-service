@@ -19,7 +19,7 @@ const SendAsGift = () => {
                     <h2>Surprise Delivery Driver</h2>
                     <p className="sendAsGift-title-after">Whether you want to deliver birthday gifts, documents, electronics, valuables or product delivery for your small business in Dubai and send product to other emirates in the UAE, we can help you! </p>
                     <ul>
-                        <li>Send your gift for you beloved ones</li>
+                        <li>Send your gift for your beloved ones</li>
                         <li>You have no time, no problem. Here we are for you </li>
                     </ul>
                     <div className="contact">

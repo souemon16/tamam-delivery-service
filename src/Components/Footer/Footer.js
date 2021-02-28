@@ -17,10 +17,10 @@ const Footer = () => {
             <div className="social-section">
                 <div className="d-flex justify-content-between align-items-center">
                     <div data-aos="fade-right" data-aos-delay="250" className="social-button d-flex">
-                        <a data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" href="https://www.facebook.com/Tamamdeliveryservicesllc/" className="fb d-flex justify-content-center align-items-center"> <FontAwesomeIcon className="footer-icon" icon={faFacebook} /> </a>
-                        <a data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" href="https://twitter.com/TamamDelivery?s=09" className="twtr d-flex justify-content-center align-items-center"> <FontAwesomeIcon className="footer-icon" icon={faTwitter} /> </a>
-                        <a data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" href="https://www.instagram.com/tamam_delivery_services_llc" className="insta d-flex justify-content-center align-items-center"> <FontAwesomeIcon className="footer-icon" icon={faInstagram} /> </a>
-                        <a data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" href="" className="in d-flex justify-content-center align-items-center"> <FontAwesomeIcon className="footer-icon" icon={faLinkedin} /> </a>
+                        <a data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" target="_blank" href="https://www.facebook.com/Tamamdeliveryservicesllc/" className="fb d-flex justify-content-center align-items-center"> <FontAwesomeIcon className="footer-icon" icon={faFacebook} /> </a>
+                        <a data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" target="_blank" href="https://twitter.com/TamamDelivery?s=09" className="twtr d-flex justify-content-center align-items-center"> <FontAwesomeIcon className="footer-icon" icon={faTwitter} /> </a>
+                        <a data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" target="_blank" href="https://www.instagram.com/tamam_delivery_services_llc" className="insta d-flex justify-content-center align-items-center"> <FontAwesomeIcon className="footer-icon" icon={faInstagram} /> </a>
+                        <a data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" target="_blank" href="" className="in d-flex justify-content-center align-items-center"> <FontAwesomeIcon className="footer-icon" icon={faLinkedin} /> </a>
                     </div>
                     <div data-aos="flip-left" data-aos-delay="250" className="contact-button d-flex justify-content-around align-items-center">
                         <div className="call">WHATSAPP US TO ORDER DELIVERY</div>
@@ -32,9 +32,11 @@ const Footer = () => {
             <div data-aos="fade-up-right" data-aos-delay="250" className="other-section container">
                 <div className="row">
                     <div className="col-lg-5 col-md-10 col-sm-12 about">
+                        <Link to='/'>
                         <div className="footer-logo">
                             <img src={logoFooter} alt="Tamam's Logo" className="img-fluid" />
                         </div>
+                        </Link>
                         <div className="des">
                             <p>We are delivery company that provides fast and reliable package transport.</p>
                         </div>

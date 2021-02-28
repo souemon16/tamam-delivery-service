@@ -1,9 +1,13 @@
 .sendAsGift{
     width: 100%;
     color: #fff;
-    height: 100vh;
+    height: 95vh;
     background: rgb(224, 224, 224);
     background: linear-gradient(317deg, rgba(70,93,115,1) 0%, rgba(18,35,51,1) 100%);
+}
+.sendAsGift .row{
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 .sendAsGift-title-before{
     font-family: 'Khand', sans-serif;
@@ -94,7 +98,6 @@
 .sendAsGift .contact .whatsapp:hover{
     box-shadow: inset 12em 0 0 0 #28a745;
 }
-
 /* RESPONSIVE DESIGN  */
 /* ------height-------- */
 @media (max-height: 520px){

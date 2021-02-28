@@ -17,7 +17,7 @@ const Services = () => {
                 <div className="icon"> <img className="service-icon" src={service1} alt="Tamam's A-Z Delivery" className="img-fluid" /> </div>
                 <div>
                 <h5 className="service-title">Tamam <br/> A-Z Delivery</h5>
-                <p className="hide">Pick-up anything from &<br/> deliver A-Z point in UAE.</p>
+                <p className="hide">Pick-up anything from Dubai &<br/> deliver A-Z point in UAE.</p>
                 </div>
             </div>
             <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="5000" className="services d-flex flex-column justify-content-center align-items-center">
