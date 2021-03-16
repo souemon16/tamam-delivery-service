@@ -25,7 +25,7 @@ const OurAim = () => {
                             <br/>
                             <br/>
                             The primary objective of our company is customer satisfaction. Reliability, speed of service,
-                            coverage area and value for money are some of the criteria on which the service provided by a courier
+                            coverage area and value for money are some of the criteria on which the service provided by a delivery
                             company is evaluated. Our Company are also guided by labour rights and employee principles.
                         </p>
                     </div>

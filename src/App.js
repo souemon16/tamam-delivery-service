@@ -7,11 +7,11 @@ import Partner from './Components/Partner/Partner';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import NotFound from './Components/NotFound/NotFound';
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
+import ContactUs from './Components/Contact Us/ContactUs';
 
 
 
@@ -24,19 +24,23 @@ function App() {
           <Homepage />
         </Route>
 
-        <Route path="/about-us">
+        <Route exact path="/about-us">
           <AboutUs />
         </Route>
 
-        <Route path="/our-aim">
+        <Route exact path="/our-aim">
           <OurAim />
         </Route>
 
-        <Route path="/become-a-driver">
+        <Route exact path="/contact-us">
+          <ContactUs />
+        </Route>
+
+        <Route exact path="/become-a-driver">
           <Driver />
         </Route>
 
-        <Route path="/become-a-partner">
+        <Route exact path="/become-a-partner">
           <Partner />
         </Route>
 

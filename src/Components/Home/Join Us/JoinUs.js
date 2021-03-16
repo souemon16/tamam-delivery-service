@@ -27,7 +27,7 @@ const JoinUs = () => {
                             </a>
                         </Link>
 
-                <Link data-aos="flip-left" data-aos-delay="150" className="col-md-5 box partner d-flex justify-content-around align-items-center" to="/become-a-patner">
+                <Link data-aos="flip-left" data-aos-delay="150" className="col-md-5 box partner d-flex justify-content-around align-items-center" to="/become-a-partner">
                             <a className="partner-box" href="">
                                 <div className="d-flex flex-column justify-content-center align-items-center">
                                     <img src={partner} alt="" />

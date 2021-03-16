@@ -42,7 +42,7 @@ const AboutUs = () => {
                     <hr className="aboutUs-hr" />
                     <div>
                         <h3>Affordable Prices</h3>
-                        <p className="text-secondary">We have created a business model that allows up to offer a wide range of customizable services at reasonable price.</p>
+                        <p className="text-secondary">We have created a business model that allows us to offer a wide range of customizable services at reasonable price.</p>
                     </div>
                 </div>
                 </div>

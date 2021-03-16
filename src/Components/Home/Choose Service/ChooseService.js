@@ -50,7 +50,7 @@ const ChooseService = () => {
                             <h5 class="card-title">Urgent Deliveries</h5>
                             <p class="card-text"><FontAwesomeIcon icon={faCheck} />  Fast and Effective</p>
                             <p className="card-small"> Pickup and Delivery <br/> Within 4 hours</p>
-                            <p className="card-small-hover">Want your product delivery <br/> urgent and do not want <br/> to wait too long. <br/> We usually take just a few <br/> hours after cut off time <br/> See Cost Details</p>
+                            <p className="card-small-hover">Want your product delivery <br/> urgent and do not want <br/> to wait too long. <br/> We usually take just a few <br/> hours after cut off time <br/> for cost details, whatsapp us</p>
                             <a data-hover="order now!" href="#" class="btn"><div>Want It?</div></a>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ const ChooseService = () => {
                     <div data-aos="zoom-in" data-aos-delay="200" data-aos-duration="4500" class="card">
                         <img src={service4} class="card-img-top" alt="Tamam Next Day Delivery Service" />
                         <div class="card-body text-center">
-                            <h5 class="card-title">Cash On Delivery</h5>
+                            <h5 class="card-title">Cash Payment Only</h5>
                             <p class="card-text"><FontAwesomeIcon icon={faCheck} /> We Believe You</p>
                             <p className="card-small">Cash Payment Only <br/> Cash on Delivery</p>
                             <p className="card-small-hover">Cash Payment Only <br/> &#38; <br/> Cash on Delivery</p>
