@@ -10,7 +10,7 @@ const Header = () => {
             <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                 <Navbar />
-                    <div className="carousel-item active carousel-1">
+                    <div title="Image Credit - piqsels.com" className="carousel-item active carousel-1">
                     <div className="row">
                         <div className="col-12 d-flex flex-column align-items-start justify-content-center">
                             <h4 className="display-5 bolder carousel-title carousel-title-1">Tamam Delivery Service</h4>
@@ -24,7 +24,7 @@ const Header = () => {
                         </div> */}
                     </div>
                     </div>
-                    <div className="carousel-item carousel-2">
+                    <div title="Image Credit - piqsels.com" className="carousel-item carousel-2">
                     <div className="row">
                         <div className="col-12 d-flex flex-column align-items-start justify-content-center">
                           <h4 className="display-5 bolder carousel-title carousel-title-2">Tamam Delivery Service</h4>

@@ -1,7 +1,7 @@
 .footerBanner{
     width: 100%;
     height: 60vh;
-    background-image: linear-gradient(70deg, rgb(12, 17, 24), rgba(18, 27, 38, 0)) ,url("../../../Images/footerBanner/pexels-pixabay-219692\ \(1\).jpg");
+    background-image: linear-gradient(70deg, rgb(12, 17, 24), rgba(18, 27, 38, 0)) ,url("../../../Images/footerBanner/footer-banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

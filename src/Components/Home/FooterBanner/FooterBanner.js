@@ -7,7 +7,7 @@ const FooterBanner = () => {
 
     AOS.init();
     return (
-        <section className="footerBanner d-flex flex-column justify-content-center align-items-start">
+        <section title="Image Credit - Patryk Kosmider - Fotolia" className="footerBanner d-flex flex-column justify-content-center align-items-start">
            <div data-aos="zoom-in-down" className="col-lg-6 col-md-8">
            <p className="footerBanner-title-before">What We Are</p>
            

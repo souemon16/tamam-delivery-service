@@ -7,7 +7,7 @@ const AboutUs = () => {
     return (
         <section className="aboutUs">
             <Navbar />
-            <div className="aboutUs-banner d-flex justify-content-center align-items-center">
+            <div title="Image Credit -pixabay.com" className="aboutUs-banner d-flex justify-content-center align-items-center">
                 <h1>About Us</h1>
             </div>
 
@@ -23,7 +23,7 @@ const AboutUs = () => {
                     expected products delivering to your customer's doors. And we feel proud to become your strong committed Delivery Partner.
                     <br/>
                     <br/>
-                    Digital Solution for your business. We are commited to provide our customer exceptional service while offering our employee the best training.
+                    Digital Solution for your business. We are committed to provide our customer exceptional service while offering our employee the best training.
                     <br/>
                     We change the way you access the world from the palm of your hand. For all your needs from here to there, big and small, to pick or drop, we'll drop it for you.
                     </p>

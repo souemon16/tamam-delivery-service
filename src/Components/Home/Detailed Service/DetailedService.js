@@ -2,7 +2,7 @@ import React from 'react';
 import './DetailedService.css';
 import icon1 from '../../../Images/icons/about-01.png';
 import icon2 from '../../../Images/icons/about-02.png';
-import courierMan from '../../../Images/courier-man.png';
+import tamamMan from '../../../Images/man with box.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -13,7 +13,7 @@ const DetailedService = () => {
         <section className="detailed-service">
             <div className="row container-fluid">
                 <div data-aos="fade-up" data-aos-delay="200" className="col-lg-6">
-                    <img src={courierMan} alt="Tamam Courier Man" className="img-fluid detailedService-img" />
+                    <img src={tamamMan} alt="Tamam Courier Man" className="img-fluid detailedService-img" />
                 </div>
                 <div data-aos="fade-down" data-aos-delay="200" className="col-lg-6 detailedService-body d-flex flex-column justify-content-center align-items-start">
                     <p className="detailedService-title-before">Our Experiences</p>

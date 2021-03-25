@@ -17,7 +17,7 @@
 .carousel-1{
     /* background: rgb(241,216,234);
     background: linear-gradient(317deg, rgba(241,216,234,1) 0%, rgb(124, 82, 113) 100%); */
-    background-image: linear-gradient(rgba(18, 27, 38, 0.247), rgba(18, 27, 38, 0.233)), url("../../../Images/background1.jpg");
+    background-image: linear-gradient(rgba(18, 27, 38, 0.308), rgba(18, 27, 38, 0.301)), url("../../../Images/home-cover-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -25,7 +25,7 @@
 .carousel-2{
     /* background: rgb(32,159,145);
     background: linear-gradient(317deg, rgba(32,159,145,1) 0%, rgba(136,248,255,1) 100%); */
-    background-image: linear-gradient(rgba(191, 200, 211, 0.075), rgba(192, 200, 209, 0.226)), url("../../../Images/background2.jpg");
+    background-image: linear-gradient(rgba(191, 200, 211, 0.24), rgba(192, 200, 209, 0.24)), url("../../../Images/home-cover-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
