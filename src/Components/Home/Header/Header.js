@@ -13,9 +13,9 @@ const Header = () => {
                     <div title="Image Credit - piqsels.com" className="carousel-item active carousel-1">
                     <div className="row">
                         <div className="col-12 d-flex flex-column align-items-start justify-content-center">
-                            <h4 className="display-5 bolder carousel-title carousel-title-1">Tamam Delivery Service</h4>
+                            <h4 className="display-5 bolder carousel-title carousel-title-1">Tamam Delivery Services L.L.C</h4>
                             <p className="display-5 carousel-detail">Pick Up & Delivery Service</p>
-                            <p className="carousel-detail-2"> Pickup anything from Dubai & <br/> Deliver anything in UAE within 4 hours 7 days a week</p>
+                            <p className="carousel-detail-2"> Pickup anything from Dubai & <br/> Deliver anywhere in UAE within 4 hours 7 days a week</p>
                             {/* <a className="btn btn-outline-dark" role="button" href="#">Buy Now</a> */}
                         </div>
 
@@ -27,7 +27,7 @@ const Header = () => {
                     <div title="Image Credit - piqsels.com" className="carousel-item carousel-2">
                     <div className="row">
                         <div className="col-12 d-flex flex-column align-items-start justify-content-center">
-                          <h4 className="display-5 bolder carousel-title carousel-title-2">Tamam Delivery Service</h4>
+                          <h4 className="display-5 bolder carousel-title carousel-title-2">Tamam Delivery Services L.L.C</h4>
                             <p className="display-5 carousel-detail">Your Trusted Delivery Partner</p>
                             <p className="carousel-detail-2">Tamam your best partner to develop your business, <br/> let us help you to grow your business</p>
                         </div> 

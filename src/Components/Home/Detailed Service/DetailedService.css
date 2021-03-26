@@ -9,7 +9,6 @@
 .row{
     width: 100%;
 }
-
 .detailed{
     padding-top: 20px;
     display: flex;
@@ -105,7 +104,7 @@
 }
 @media (max-width: 1024px) and (max-height: 1366px){
     .detailed-service{
-        height: 60vh;
+        height: 40vh;
     }
 }
 @media(max-width: 768px){
@@ -138,22 +137,22 @@
 }
 @media (max-width: 768px) and (max-height: 1024px){
     .detailed-service{
-        height: 100vh;
+        height: 110vh;
     }
 }
 @media (max-width: 650px) and (max-height: 720px){
     .detailed-service{
-        height: 120vh;
+        height: 160vh;
     }
 }
 @media (max-width: 576px) and (max-height: 600px){
     .detailed-service{
-        height: 140vh;
+        height: 200vh;
     }
 }
 @media(max-width: 496px){
     .detailed-service{
-        height: 100vh;
+        height: 200vh;
     }
     .detailedService-title-before{
         font-size: 16px;
@@ -183,12 +182,32 @@
 }
 @media (max-width: 375px) and (max-height: 600px){
     .detailed-service{
-        height: 120vh;
+        height: 170vh;
+    }
+}
+@media (max-width: 375px) and (max-height: 575px){
+    .detailed-service{
+        height: 190vh;
+    }
+}
+@media (max-width: 375px) and (max-height: 524px){
+    .detailed-service{
+        height: 210vh;
     }
 }
 @media (max-width: 320px) and (max-height: 670px){
     .detailed-service{
-        height: 120vh;
+        height: 160vh;
+    }
+}
+@media (max-width: 320px) and (max-height: 620px){
+    .detailed-service{
+        height: 180vh;
+    }
+}
+@media (max-width: 320px) and (max-height: 557px){
+    .detailed-service{
+        height: 200vh;
     }
 }
 @media(max-width: 312px){

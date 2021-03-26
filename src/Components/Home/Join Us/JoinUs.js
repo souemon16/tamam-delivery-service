@@ -18,7 +18,7 @@ const JoinUs = () => {
 
                 <div className="joinUs-body container d-flex justify-content-around">
 
-                        <Link data-aos="fade-right" data-aos-delay="150" className="col-md-5 box driver d-flex justify-content-around align-items-center" to="/become-a-driver">
+                        <Link data-aos="fade-right" data-aos-delay="150" title="Image Credit- quoteinspector.com" className="col-md-5 box driver d-flex justify-content-around align-items-center" to="/become-a-driver">
                             <a className="partner-box" href="">
                                 <div className="d-flex flex-column justify-content-around align-items-center">
                                     <img src={driver} alt="" />
@@ -27,7 +27,7 @@ const JoinUs = () => {
                             </a>
                         </Link>
 
-                <Link data-aos="flip-left" data-aos-delay="150" className="col-md-5 box partner d-flex justify-content-around align-items-center" to="/become-a-partner">
+                <Link data-aos="flip-left" data-aos-delay="150" title="Image Credit- pixabay.com" className="col-md-5 box partner d-flex justify-content-around align-items-center" to="/become-a-partner">
                             <a className="partner-box" href="">
                                 <div className="d-flex flex-column justify-content-center align-items-center">
                                     <img src={partner} alt="" />

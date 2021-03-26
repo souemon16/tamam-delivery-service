@@ -24,7 +24,7 @@ const SendAsGift = () => {
                     </ul>
                     <div className="contact">
                         <a href=""><button className="btn mail"> <FontAwesomeIcon icon={faPaperPlane} /> Mail Us</button></a>
-                        <a href=""><button className="btn whatsapp"> <FontAwesomeIcon icon={faWhatsapp} /> Whatsapp Us</button></a>
+                        <a target="_blank" href="https://wa.me/+971563667816"><button className="btn whatsapp"> <FontAwesomeIcon icon={faWhatsapp} /> Whatsapp Us</button></a>
                     </div>
                 </div>
                 <div data-aos="fade-down" data-aos-delay="150" className="col-md-6">

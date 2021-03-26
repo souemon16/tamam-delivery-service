@@ -19,11 +19,13 @@ const AboutUs = () => {
                     Now the time has come to introduce with the trusted and reliable Receiving & Delivery
                     systems. 
                     <br/>
+                    <br/>
                     According to your commercial and None Commercial demands, we are the Unique efficient Team, "TAMAM DELIVERY SERVICES" to co-operate with your targeted &
                     expected products delivering to your customer's doors. And we feel proud to become your strong committed Delivery Partner.
                     <br/>
                     <br/>
                     Digital Solution for your business. We are committed to provide our customer exceptional service while offering our employee the best training.
+                    <br/>
                     <br/>
                     We change the way you access the world from the palm of your hand. For all your needs from here to there, big and small, to pick or drop, we'll drop it for you.
                     </p>

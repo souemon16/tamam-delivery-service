@@ -7,7 +7,7 @@ const Driver = () => {
     return (
         <section className="be-driver">
             <Navbar />
-            <div className="driver-banner d-flex justify-content-center align-items-center">
+            <div title="Image Credit- pixnio.com" className="driver-banner d-flex justify-content-center align-items-center">
                 <h1>Become A Driver</h1>
             </div>
             <div className="driver-body">
