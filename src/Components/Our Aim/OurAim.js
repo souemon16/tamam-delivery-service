@@ -18,8 +18,8 @@ const OurAim = () => {
                         <p className="text-secondary">
                             Our Aim is our Mission of Honesty and Transference based services platform.
                             Since, an Well-Organized Start-up Co. has named "TAMAM DELIVERY SERVICES L.L.C" 
-                            promises to serve Flexible, Smart, Safety & Secure. Our eyes on the Global 
-                            economic times, there of courses we'll have our extreme efforts, ideas & technologies to
+                            promises to serve Flexible, Smart, Safety &#38; Secure. Our eyes on the Global 
+                            economic times, there of courses we'll have our extreme efforts, ideas &#38; technologies to
                             overcome a stage of performance i.e. customer's happiness is our Awards. So, 
                             'WE HAVE OUR UNIQUE POWER TRUSTED WORTH TOGETHER'.
                             <br/>

@@ -20,7 +20,7 @@ const Partner = () => {
                     of demands together as well as feel proud to become a delivery partner. All of our
                     Delivery driver are well trained and experienced on customer services. Moreover,
                     well-known location across the UAE. Our dedicated strong delivery drivers are to respect your business
-                    reputation and complaints free services with excellent works handling specially pick & drop to your
+                    reputation and complaints free services with excellent works handling specially pick &#38; drop to your
                     dear customers which is success of Brand TAMAM DELIVERY SERVICES L.L.C. We always care your business
                     by our on time dealings.
                     </p>

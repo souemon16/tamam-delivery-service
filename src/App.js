@@ -13,8 +13,6 @@ import NotFound from './Components/NotFound/NotFound';
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 import ContactUs from './Components/Contact Us/ContactUs';
 
-
-
 function App() {
   return (
     <Router>
@@ -23,27 +21,21 @@ function App() {
         <Route exact path="/">
           <Homepage />
         </Route>
-
         <Route exact path="/about-us">
           <AboutUs />
         </Route>
-
         <Route exact path="/our-aim">
           <OurAim />
         </Route>
-
         <Route exact path="/contact-us">
           <ContactUs />
         </Route>
-
         <Route exact path="/become-a-driver">
           <Driver />
         </Route>
-
         <Route exact path="/become-a-partner">
           <Partner />
         </Route>
-
         <Route path="/*">
           <NotFound />
         </Route>

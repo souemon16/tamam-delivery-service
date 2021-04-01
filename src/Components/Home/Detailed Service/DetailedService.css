@@ -3,7 +3,7 @@
     height: 90vh;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     background-color: #fff;
 }
 .row{
@@ -24,7 +24,6 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     text-align: left;
-    /* color: #2d2e2e; */
     color: tomato;
 }
 .detailed-service-title{
@@ -65,12 +64,7 @@
 }
 .detailed-service-des{
     text-align: justify;
-    /* width: 600px; */
 }
-/* .service-detail p{
-    width: 500px;
-} */
-
 /* RESPONSIVE DESIGN  */
 /* ----Height---- */
 @media(max-height:510px){

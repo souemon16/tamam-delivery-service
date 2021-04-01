@@ -1,9 +1,7 @@
 import React from 'react';
-import Description from './Description/Description';
 import Header from './Header/Header';
 import Services from './Services/Services';
 import DetailedService from './Detailed Service/DetailedService';
-import OurBenefit from './Our Benefit/OurBenefit';
 import ChooseService from './Choose Service/ChooseService';
 import Footer from '../Footer/Footer';
 import SendAsGift from './SendAsGift/SendAsGift';
@@ -22,11 +20,8 @@ const Homepage = () => {
             <ECommerce />
             <FooterBanner />
             <JoinUs />
-            {/* <OurBenefit/>
-            <Description /> */}
             <Footer />
         </>
     );
 };
-
 export default Homepage;

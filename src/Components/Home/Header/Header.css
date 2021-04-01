@@ -15,17 +15,13 @@
     padding: 150px 140px;
 }
 .carousel-1{
-    /* background: rgb(241,216,234);
-    background: linear-gradient(317deg, rgba(241,216,234,1) 0%, rgb(124, 82, 113) 100%); */
     background-image: linear-gradient(rgba(191, 200, 211, 0.308), rgba(44, 47, 49, 0.685)), url("../../../Images/home-cover-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
 }
 .carousel-2{
-    /* background: rgb(32,159,145);
-    background: linear-gradient(317deg, rgba(32,159,145,1) 0%, rgba(136,248,255,1) 100%); */
-    background-image: linear-gradient(rgba(181, 189, 199, 0.397), rgba(180, 186, 194, 0.397)), url("../../../Images/home-cover-2.jpg");
+    background-image: linear-gradient(rgba(44, 47, 49, 0.342), rgba(44, 47, 49, 0.253)), url("../../../Images/home-cover-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -40,7 +36,8 @@
     font-family: 'Titillium Web', sans-serif;
 }
 .carousel-2 h4, .carousel-2 p{
- color: #0f1135;
+ /* color: #0f1135; */
+ color: #fff;
 }
 .carousel-1 h4, .carousel-1 p{
     color: #fff;

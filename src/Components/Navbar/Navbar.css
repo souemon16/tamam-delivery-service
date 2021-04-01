@@ -10,7 +10,6 @@
 .logo img{
     width: 200px;
     height: 50px;
-    /* border: 1px solid salmon; */
     opacity: 0.9;
 }
 .nav-items{
@@ -35,9 +34,6 @@
 .nav-btn:hover{
     border-radius: 0px;
 }
-/* .app{
-    border: 1px solid #122333;
-} */
 .nav-btn:hover, 
 .nav-btn:focus{
     box-shadow: inset 12em 0 0 0 #122333;
@@ -98,19 +94,15 @@
 }
 @media (max-width: 469px){
     .nav{
-        /* flex-direction: column; */
         justify-content: center;
         align-items: center;
     }
     .logo{
-        /* border: 1px solid salmon; */
         display: block;
         margin: 10px auto 0 auto;
     }
     .logo img{
-        /* border: 1px solid salmon; */
         display: block;
-        /* margin: 0 auto; */
     }
     .nav-items{
         display: none;

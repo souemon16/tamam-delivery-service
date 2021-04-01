@@ -13,7 +13,7 @@ const FooterBanner = () => {
            
             <h2 className="footerBanner-title">We’re Tamam Delivery, your preferred delivery provider in Dubai, United Arab Emirates</h2>
             <p className="footerBanner-para">In today’s fast-paced working environment, let us take care of all your pickup 
-            and delivery needs so that you can focus on what you do best. To learn more about what we have to offer, please whatsapp us.</p>
+            and delivery needs so that you can focus on what you do best. To learn more about what we have to offer, please whatsApp us.</p>
            </div>
         </section>
     );

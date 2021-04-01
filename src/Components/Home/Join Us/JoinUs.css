@@ -12,7 +12,6 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     text-align: left;
-    /* color: rgb(253, 253, 253); */
     color: tomato;
     position: relative;
 }
@@ -28,8 +27,6 @@
 }
 .box{
     background-color: transparent;
-    /* padding: 70px 0px; */
-    /* width: 500px; */
     height: 300px;
     text-decoration: none;
     transition: all 0.5s ease;
@@ -39,10 +36,9 @@
   transform: translateY(-0.25em);
   transition: all 0.5s ease;
   background-size: 120%;
-    /* transform: scale(1.5); */
 }
 .driver{
-    background-image: linear-gradient(rgba(18, 27, 38, 0.8), rgba(18, 27, 38, 0.8)) ,url("../../../Images//joinUs/3rd.jpg");
+    background-image: linear-gradient(rgba(18, 27, 38, 0.5), rgba(18, 27, 38, 0.5)) ,url("../../../Images//joinUs/3rd.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -52,7 +48,7 @@
     transition: all 0.5s ease-in;
 }
 .partner{
-    background-image: linear-gradient(rgba(18, 27, 38, 0.8), rgba(18, 27, 38, 0.8)) ,url("../../../Images//joinUs/4th.jpg");
+    background-image: linear-gradient(rgba(18, 27, 38, 0.5), rgba(18, 27, 38, 0.5)) ,url("../../../Images//joinUs/4th.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -64,7 +60,6 @@
     color: #fff;
     margin-top: 30px;
 }
-
 /* RESPONSIVE DESIGN  */
 /* ----Height--- */
 @media (max-height: 520px){

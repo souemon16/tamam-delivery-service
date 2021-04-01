@@ -1,10 +1,7 @@
 .service-section{
-    /* margin-top: -100px; */
     height: 40vh;
-    /* z-index: 999; */
 }
 .services{
-    /* box-shadow: 0 10px 15px rgb(0 0 0 / 0.16); */
     border-radius: 20px;
     transition: ease-in-out 0.3s;
     width: 250px;
@@ -32,7 +29,6 @@
 .hide{
     display: none;
     text-align: center;
-    /* color: #f0f3f5; */
     color: #202020;
     font-size: 22px;
     padding: 20px;
@@ -45,11 +41,7 @@
     display: block;
 }
 .services:hover{
-    /* transform: translateY(-40px); */
     box-shadow: 0 10px 15px rgb(0 0 0 / 0.56);
-    /* margin-top: -20px; */
-    /* background: rgb(43,49,82);
-    background: linear-gradient(317deg, rgba(43,49,82,1) 0%, rgba(19,26,59,1) 100%); */
 }
 .services:hover .service-icon, .services:hover .service-title{
     color: #fff;

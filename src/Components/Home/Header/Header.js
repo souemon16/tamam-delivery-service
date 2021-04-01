@@ -16,20 +16,16 @@ const Header = () => {
                             <h4 className="display-5 bolder carousel-title carousel-title-1">Tamam Delivery Services L.L.C</h4>
                             <p className="display-5 carousel-detail">Pick Up & Delivery Service</p>
                             <p className="carousel-detail-2"> Pickup anything from Dubai & <br/> Deliver anywhere in UAE within 4 hours 7 days a week</p>
-                            {/* <a className="btn btn-outline-dark" role="button" href="#">Buy Now</a> */}
                         </div>
 
-                        {/* <div className="col-sm-5">
-                            <img src={carousel1} className="d-block w-100 img img-fluid" alt="Tamam Delivery Serivces" />
-                        </div> */}
                     </div>
                     </div>
-                    <div title="Image Credit - piqsels.com" className="carousel-item carousel-2">
+                    <div title="Image Credit- hippopx.com" className="carousel-item carousel-2">
                     <div className="row">
                         <div className="col-12 d-flex flex-column align-items-start justify-content-center">
                           <h4 className="display-5 bolder carousel-title carousel-title-2">Tamam Delivery Services L.L.C</h4>
                             <p className="display-5 carousel-detail">Your Trusted Delivery Partner</p>
-                            <p className="carousel-detail-2">Tamam your best partner to develop your business, <br/> let us help you to grow your business</p>
+                            <p className="carousel-detail-2">Tamam your best delivery partner to develop your business, <br/> let us help you to grow your business</p>
                         </div> 
                     </div>
                     </div>
@@ -46,7 +42,6 @@ const Header = () => {
                 <img src={bottomScrew} alt="Tamam's Carousel Screw" className="img-fluid"/>
                 </div>
             </div>
-           
         </div>
         </>
     );
