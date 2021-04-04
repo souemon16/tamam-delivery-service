@@ -32,7 +32,7 @@ const AboutUs = () => {
                 </div>
                 <div className="col-md-5 aboutUs-short">
                     <div>
-                        <h3>Ouality Service</h3>
+                        <h3>Quality Service</h3>
                         <p className="text-secondary">Our Primary Focus is You When it comes to judging the effectiveness of a company's customer service
                         efforts, there is really only one measure that matters - customer satisfaction.</p>
                     </div>

@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 const SendAsGift = () => {
     AOS.init();
     return (
-        <section className="sendAsGift d-flex justify-content-center align-items-center">
+        <section className="sendAsGift d-flex justify-content-center align-items-end">
             <div className="row container d-flex justify-content-center align-items-center">
                 <div data-aos="fade-right" data-aos-delay="150" className="col-md-6">
                     <p className="sendAsGift-title-before">Your Personal</p>
@@ -25,7 +25,7 @@ const SendAsGift = () => {
                         <a target="_blank" rel="noreferrer" href="https://wa.me/+971563667816"><button className="btn whatsapp"> <FontAwesomeIcon icon={faWhatsapp} /> WhatsApp Us</button></a>
                     </div>
                 </div>
-                <div data-aos="fade-down" data-aos-delay="150" className="col-md-6">
+                <div data-aos="fade-down" data-aos-delay="150" className="col-md-6 img-box">
                     <img src={girlWithFlower} alt="Tamam Home Delivery" className="img-fluid girlWithFlower" />
                 </div>
             </div>

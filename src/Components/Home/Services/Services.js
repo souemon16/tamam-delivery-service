@@ -19,7 +19,7 @@ const Services = () => {
                 </div>
             </div>
             <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="5000" className="services d-flex flex-column justify-content-center align-items-center">
-            <div className="icon"> <img className="service-icon" src={service2} alt="Tamam's Great Timing" className="img-fluid"/> </div>
+            <div className="icon"> <img className="service-icon" src={service2} alt="Tamam's Great Timing" className="img-fluid" /> </div>
                 <div>
                 <h5 className="service-title">Tamam <br/> Great Timing</h5>
                 <p className="hide">We always follow time and tidy in delivery.</p>

@@ -19,20 +19,25 @@
     text-transform: uppercase;
 }
 .partner-body{
-    padding: 100px 0;
-}
-.partner-body h1{
-    font-size: 52px;
-    color: rgb(22, 19, 19);
-    letter-spacing: 4px;
-    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .partner-body h3{
+    font-size: 30px;
+    text-align: center;
     font-family: 'Khand', sans-serif;
+    padding-bottom: 20px;
 }
 .partner-body p{
     font-size: 17px;
     line-height: 27px;
     text-align: justify;
     font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 768px){
+    .partner-banner h1{
+        font-size: 35px;
+        letter-spacing: 2px;
+    }
 }
