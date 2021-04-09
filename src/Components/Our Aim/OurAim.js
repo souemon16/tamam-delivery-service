@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import './OurAim.css';
-import tamamMan from '../../Images/our-aim/courier-man.png';
+import aimToon from '../../Images/our-aim/aim-toon.png';
 
 const OurAim = () => {
     return (
@@ -12,8 +12,8 @@ const OurAim = () => {
                 <h1>OUR AIM</h1>
             </div>
             <div className="ourAim-body container">
-                <div className="row">
-                    <div className="col-lg-6 ourAim-text">
+                <div className="row container">
+                    <div className="col-lg-7 ourAim-text">
                         <h3>Our Aim</h3>
                         <p className="text-secondary">
                             Our Aim is our Mission of Honesty and Transference based services platform.
@@ -29,8 +29,8 @@ const OurAim = () => {
                             company is evaluated. Our Company are also guided by labour rights and employee principles.
                         </p>
                     </div>
-                    <div className="col-lg-5 ourAim-img">
-                        <img src={tamamMan} alt="Tamam Delivery Man" className="img-fluid"/>
+                    <div title="Image Credit - commons.wikimedia.org" className="col-lg-5 ourAim-img d-flex justify-content-center align-items-center">
+                        <img src={aimToon} alt="Tamam Delivery Man" className="img-fluid"/>
                     </div>
                 </div>
             </div>

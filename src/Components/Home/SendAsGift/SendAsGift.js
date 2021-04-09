@@ -21,7 +21,7 @@ const SendAsGift = () => {
                         <li>You have no time, no problem. Here we are for you </li>
                     </ul>
                     <div className="contact">
-                        <a rel="noreferrer" href="/#"><button className="btn mail"> <FontAwesomeIcon icon={faPaperPlane} /> Mail Us</button></a>
+                        <a rel="noreferrer" href="mailto:info@tamamdelivery.com"><button className="btn mail"> <FontAwesomeIcon icon={faPaperPlane} /> Mail Us</button></a>
                         <a target="_blank" rel="noreferrer" href="https://wa.me/+971563667816"><button className="btn whatsapp"> <FontAwesomeIcon icon={faWhatsapp} /> WhatsApp Us</button></a>
                     </div>
                 </div>
