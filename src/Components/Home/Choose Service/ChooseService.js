@@ -85,7 +85,7 @@ const ChooseService = () => {
                             <p className="card-text"><FontAwesomeIcon icon={faCheck} />  Reliable Service</p>
                             <p className="card-small"> Pickup and Delivery <br/> Within Your Schedule</p>
                             <p className="card-small-hover">"On time always" We offer <br/> a time saved and protected <br/> delivering, caring on <br/> damaging complaints</p>
-                            <a data-hover="order now!" rel="noreferrer" href="https://wa.me/+971563667816?text=Hello There, I want to know about PRODUCT SAFETY &#38; SECURITY policy. Can you tell me some details about it?" className="btn"><div>Want It?</div></a>
+                            <a data-hover="order now!" rel="noreferrer" href="https://wa.me/+971563667816?text=Hello There, I want to know about PRODUCT SAFETY and SECURITY policy. Can you tell me some details about it?" className="btn"><div>Want It?</div></a>
                         </div>
                     </div>
                 </div>

@@ -23,8 +23,8 @@ const Footer = () => {
                         <a data-aos="zoom-in" rel="noreferrer" data-aos-delay="300" data-aos-duration="1000" target="_blank" href="https://www.linkedin.com/in/tamamdelivery/" className="in d-flex justify-content-center align-items-center"> <FontAwesomeIcon className="footer-icon" icon={faLinkedin} /> </a>
                     </div>
                     <div data-aos="flip-left" data-aos-delay="250" className="contact-button d-flex justify-content-around align-items-center">
-                        <div className="call">WHATSAPP US TO ORDER DELIVERY</div>
-                        <div> <FontAwesomeIcon className="footer-icon" icon={faPhone} /> +971 56 366 7816</div>
+                        <div className="call">WHATSAPP US TO ORDER DELIVERY </div>
+                        <div> <FontAwesomeIcon className="footer-icon" icon={faPhone} /> +971 56 366 7816 </div>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@ const Footer = () => {
                         </div>
                         </Link>
                         <div className="des">
-                            <p>We are delivery company that provides fast and reliable package transport.</p>
+                            <p>We are delivery company that provides fast and reliable package transport. <br/> For any details contact us: contact@tamamdelivery.com </p>
                         </div>
                     </div>
                     <hr className="footer-hr" />

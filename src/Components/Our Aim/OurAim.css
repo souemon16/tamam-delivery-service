@@ -40,3 +40,9 @@
         height: 55vh;
     }
 }
+@media (max-width: 768px){
+    .ourAim-banner h1{
+        font-size: 35px;
+        letter-spacing: 2px;
+    }
+}

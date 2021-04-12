@@ -27,3 +27,13 @@
     letter-spacing: 4px;
     text-align: center;
 }
+@media (max-width: 768px){
+    .contactUS-banner h1{
+        font-size: 35px;
+        letter-spacing: 2px;
+    }
+    .contactUS-body h1{
+        font-size: 32px;
+        text-align: center;
+    }
+}

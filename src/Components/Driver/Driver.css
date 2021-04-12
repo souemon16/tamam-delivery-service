@@ -27,3 +27,13 @@
     letter-spacing: 4px;
     text-align: center;
 }
+@media (max-width: 768px){
+    .driver-banner h1{
+        font-size: 35px;
+        letter-spacing: 2px;
+    }
+    .driver-body h1{
+        font-size: 32px;
+        text-align: center;
+    }
+}

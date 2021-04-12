@@ -6,20 +6,12 @@ import {
   Route
 } from "react-router-dom";
 
-
-// import Homepage from './Components/Home/Homepage';
 const Homepage = lazy(() => import('./Components/Home/Homepage'));
-// import AboutUs from './Components/About Us/AboutUs';
 const AboutUs = lazy(() => import('./Components/About Us/AboutUs'));
-// import OurAim from './Components/Our Aim/OurAim';
 const OurAim = lazy(() => import('./Components/Our Aim/OurAim'));
-// import Driver from './Components/Driver/Driver';
 const Driver = lazy(() => import('./Components/Driver/Driver'));
-// import Partner from './Components/Partner/Partner';
 const Partner = lazy(() => import('./Components/Partner/Partner'));
-// import NotFound from './Components/NotFound/NotFound';
 const NotFound = lazy(() => import('./Components/NotFound/NotFound'));
-// import ContactUs from './Components/Contact Us/ContactUs';
 const ContactUs = lazy(() => import('./Components/Contact Us/ContactUs'));
 
 function App() {

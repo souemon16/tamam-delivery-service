@@ -44,6 +44,10 @@
 }
 /* RESPONSIVENESS  */
 @media(max-width: 768px){
+    .aboutUs-banner h1{
+        font-size: 35px;
+        letter-spacing: 2px;
+    }
     .aboutUs-body{
         padding: 100px 40px;
     }
