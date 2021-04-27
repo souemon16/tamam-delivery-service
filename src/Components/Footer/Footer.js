@@ -38,7 +38,7 @@ const Footer = () => {
                         </div>
                         </Link>
                         <div className="des">
-                            <p>We are delivery company that provides fast and reliable package transport. <br/> For any details contact us: contact@tamamdelivery.com </p>
+                            <p>We are delivery company that provides fast and reliable package transport. <br/> For any details contact us: info@tamamdelivery.com </p>
                         </div>
                     </div>
                     <hr className="footer-hr" />

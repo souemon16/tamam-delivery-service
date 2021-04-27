@@ -21,7 +21,7 @@
     background-position: bottom;
 }
 .carousel-2{
-    background-image: linear-gradient(rgba(44, 47, 49, 0.342), rgba(44, 47, 49, 0.253)), url("../../../Images/home-cover-2.jpg");
+    background-image: linear-gradient(rgba(44, 47, 49, 0.26), rgba(44, 47, 49, 0.37)), url("../../../Images/home-cover-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
